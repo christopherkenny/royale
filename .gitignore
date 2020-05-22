@@ -1,0 +1,7 @@
+.Rproj.user
+
+# Ignore notebooks
+.nb.html
+
+# Ignore test file
+Tests.Rmd

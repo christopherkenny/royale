@@ -1,0 +1,7 @@
+Package: royaleR
+Version: 0.1
+Date: 2019-12-22
+Title: RoyaleAPI wrapper for R
+Description: Wrapper for RoyaleAPI for ClashRoyale.
+Author: Christopher T Kenny <ckenny@g.harvard.edu>
+Maintainer: Christopher T Kenny <ckenny@g.harvard.edu>
