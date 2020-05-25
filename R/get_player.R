@@ -26,10 +26,10 @@ get_player <- function(tag = 'JYJQC88', key = get_Royale()){
   }
 
   # Use inputs -----------------------------------------------------------------
-  url <- paste0('https://api.royaleapi.com/player/', tag)
+  url <- paste0('https://api.clashroyale.com/v1/players/%23', tag)
 
   # Call to API ----------------------------------------------------------------
-  out <- GET(url, config = add_headers(auth = key))
+  out <- GET(url, config = add_headers(`Authorization: Bearer` = key))
 
   # Check/Clean output ---------------------------------------------------------
   if (status_code(out) != 200){

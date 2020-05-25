@@ -2,7 +2,7 @@
 #'
 #' Retrieves RoyaleAPI key set by \code{set_Royale}.
 #'
-#' @return None
+#' @return string key
 #'
 #' @export
 

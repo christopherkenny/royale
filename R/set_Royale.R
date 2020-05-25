@@ -1,8 +1,8 @@
-#' Set RoyaleAPI key
+#' Set Clash Royale API key
 #'
-#' Sets your RoyaleAPI key for default use.
+#' Sets your Clash Royale API key for default use.
 #'
-#' @param key Required. Your RoyaleAPI key. See \href{}{}.
+#' @param key Required. Your Clash Royale API key. See \href{}{}.
 #'
 #' @return None
 #'
@@ -12,7 +12,7 @@ set_Royale <- function(key){
 
   # Check inputs ---------------------------------------------------------------
   if (class(key) != 'character'){
-    stop('Please provide a valid key.')
+    stop('Please provide a valid character key.')
   }
 
   # Add to environment ---------------------------------------------------------

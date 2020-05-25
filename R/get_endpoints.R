@@ -19,7 +19,7 @@ get_endpoints <- function(key = get_Royale()){
 
   # Call to API ----------------------------------------------------------------
   out <- GET(url = 'https://api.royaleapi.com/endpoints',
-             config = add_headers(auth = key))
+             config = add_headers(`Authorization: Bearer` = key))
 
   # Check/Clean output ---------------------------------------------------------
   if (status_code(out) != 200) {

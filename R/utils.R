@@ -10,25 +10,19 @@
 #' @export
 status_error <- function(s) {
   if (s == 400){
-    return('400: Bad Request -- Your request sucks.')
-  } else if (s == 401){
-    return('401: Unauthorized -- No authentication was provided, or key invalid.')
+    return('400: Client provided incorrect parameters for the request.')
+  } else if (s == 403){
+    return('403: Access denied, either because of missing/incorrect credentials or used API token does not grant access to the requested resource.')
   } else if (s == 404) {
-    return('404: Not Found -- The specified player / clan cannot be found. Could be invalid tags.')
-  } else if (s == 417) {
-    return('417: Expectation Failed -- Clan not tracked.')
+    return('404: Resource was not found.')
   } else if (s == 429) {
-    return('429:	Too Many Requests -- You have hit the API Ratelimit.')
+    return('429:	Request was throttled, because amount of requests was above the threshold defined for the used API token.')
   } else if (s == 500) {
-    return(  '500:	Internal Server Error -- RoyaleAPI has a problem with their server. Try again later.')
-  } else if (s == 501) {
-    return(  '501:	Not Implemented Yet -- RoyaleAPI has yet to implement this feature in v3 of the API.')
+    return(  '500: Unknown error happened when handling the request.')
   } else if (s == 503) {
-    return(  '503:	Service Unavailable -- RoyaleAPI is temporarily offline for maintenance. Please try again later.')
-  } else if (s == 522) {
-    return(  '522:	:Service Unavailable -- RoyaleAPI is temporarily offline. Please try again later.')
+    return(  '503:	Service is temprorarily unavailable because of maintenance..')
   } else {
-    return(paste0('Unknown error. Status is',s))
+    return(paste0('Unknown error. Status is ', s, '.'))
   }
 }
 

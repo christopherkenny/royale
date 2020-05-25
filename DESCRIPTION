@@ -1,7 +1,11 @@
 Package: royaleR
 Version: 0.1
 Date: 2019-12-22
-Title: RoyaleAPI wrapper for R
-Description: Wrapper for RoyaleAPI for ClashRoyale.
+Title: Clash Royale API wrapper for R
+Description: Wrapper for Official API for Clash Royale.
 Author: Christopher T Kenny <ckenny@g.harvard.edu>
 Maintainer: Christopher T Kenny <ckenny@g.harvard.edu>
+Imports:
+  httr,
+  tidyverse,
+  stringr
