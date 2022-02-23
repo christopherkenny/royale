@@ -1,12 +1,16 @@
-Package: royaleR
-Version: 0.1
-Date: 2019-12-22
+Package: tidycr
+Version: 0.0.1
+Date: 2021-11-06
 Title: Clash Royale API wrapper for R
-Description: Wrapper for Official API for Clash Royale.
-Author: Christopher T Kenny <ckenny@g.harvard.edu>
-Maintainer: Christopher T Kenny <ckenny@g.harvard.edu>
+Description: R interface to the official API for Clash Royale <https://developer.clashroyale.com/#/>.
+Author: Christopher T. Kenny <ckenny@g.harvard.edu>
+Maintainer: Christopher T. Kenny <ckenny@g.harvard.edu>
 Imports:
-  httr,
-  tidyverse,
-  stringr
-  
+    httr,
+    dplyr,
+    stringr,
+    httr2,
+    tibble,
+    cli
+Encoding: UTF-8
+RoxygenNote: 7.1.2

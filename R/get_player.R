@@ -4,40 +4,43 @@
 #'
 #' @param tag Required. The player to return.
 #' Default: JYJQC88
-#' @param key Required. API key. See \href{docs.royaleapi.com/#/}{RoyaleAPI.} \cr
-#' Default: get_Royale
+#' @param key Required. API key. See \href{https://developer.clashroyale.com/#/documentation}{Clash Royale API} \cr
+#' Default: `get_Royale()`
 #'
-#' @return
-#' Returns a player.
+#' @importFrom dplyr tibble
+#' @importFrom httr GET status_code
+#' @return Returns a player's info as a tibble
 #'
 #' @export
-
-get_player <- function(tag = 'JYJQC88', key = get_Royale()){
+#' @md
+#' @examples
+#' #TODO
+get_player <- function(tag = 'JYJQC88', key = get_Royale()) {
 
   # Check inputs ---------------------------------------------------------------
-  if (stringr::str_length(tag) != 7){
-    stop('"tag" must be 7 characters long')
+  if (stringr::str_length(tag) != 7) {
+    cli::cli_abort('`tag` must be 7 characters long.')
   }
-  if (substr(tag, 1, 1) == '#'){
-    stop('"tag" does not include "#"')
+  if (substr(tag, 1, 1) == '#') {
+    cli::cli_abort('`tag` does not include "#".')
   }
-  if (nchar(key) == 0){
-    stop('Please set API key with set_Royale.')
+  if (nchar(key) == 0) {
+    cli::cli_abort('Please set API key with set_Royale.')
   }
 
   # Use inputs -----------------------------------------------------------------
-  url <- paste0('https://api.clashroyale.com/v1/players/%23', tag)
+  url <- paste0(get_api_url(), 'players/%23', tag)
 
   # Call to API ----------------------------------------------------------------
-  out <- GET(url, config = add_headers(`Authorization: Bearer` = key))
+  out <- httr::GET(url, config = add_headers(`Authorization: Bearer` = key))
 
   # Check/Clean output ---------------------------------------------------------
-  if (status_code(out) != 200){
-    stop(status_error(status_code(out)))
+  if (status_code(out) != 200) {
+    cli::cli_abort(status_error(status_code(out)))
   } else {
-    out <- content(x = out, as = 'parsed')
+    out <- httr::content(x = out, as = 'parsed')
   }
 
   # Return player --------------------------------------------------------------
-  return(out)
+  out
 }

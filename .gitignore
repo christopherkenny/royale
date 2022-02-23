@@ -5,3 +5,7 @@
 
 # Ignore test file
 Tests.Rmd
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store

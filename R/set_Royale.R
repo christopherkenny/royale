@@ -8,14 +8,13 @@
 #'
 #' @export
 
-set_Royale <- function(key){
+set_Royale <- function(key) {
 
   # Check inputs ---------------------------------------------------------------
-  if (class(key) != 'character'){
+  if (class(key) != 'character') {
     stop('Please provide a valid character key.')
   }
 
   # Add to environment ---------------------------------------------------------
   Sys.setenv(CRAPI = key)
-
 }

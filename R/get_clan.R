@@ -1,16 +1,19 @@
-#' Gets Clan War Log
+#' Get a single player
+#'
+#' Gets full clan details
 #'
 #' @param clan Required. Clan tag.
 #' Default: 99R2PQVR
-#' @param key Required. Clash Royale API key. See \href{docs.royaleapi.com/#/}{RoyaleAPI.} \cr
+#' @param key Required. API key. See \href{docs.royaleapi.com/#/}{RoyaleAPI.} \cr
 #' Default: get_Royale
 #'
-#' @return
-#' Returns clan tibble
+#' @importFrom dplyr tibble
+#' @importFrom httr GET status_code
+#' @return Returns a player's info as a tibble
 #'
 #' @export
 
-get_clan_war_log <- function(clan = '99R2PQVR', key = get_Royale()) {
+get_clan <- function(clan = '99R2PQVR', key = get_Royale()) {
 
   # Check inputs ---------------------------------------------------------------
   if (stringr::str_length(clan) != 8) {
@@ -24,21 +27,18 @@ get_clan_war_log <- function(clan = '99R2PQVR', key = get_Royale()) {
   }
 
   # Use inputs -----------------------------------------------------------------
-  url <- paste0('https://api.clashroyale.com/v1/clans/%23', clan, '/warlog')
+  url <- paste0(get_api_url(), 'clans/%23', clan)
 
   # Call to API ----------------------------------------------------------------
   out <- GET(url, config = add_headers(`Authorization: Bearer` = key))
 
-  # Check/Extract output -------------------------------------------------------
+  # Check/Clean output ---------------------------------------------------------
   if (status_code(out) != 200) {
     stop(status_error(status_code(out)))
   } else {
     out <- content(x = out, as = 'parsed')
   }
 
-  # Clean output ---------------------------------------------------------------
-  tib <- bind_rows(out[[1]]$participants)
-
-  # Return clan war log --------------------------------------------------------
+  # Return player --------------------------------------------------------------
   return(out)
 }
