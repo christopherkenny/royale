@@ -41,6 +41,20 @@ valid_tag <- function(tag, length) {
   tag
 }
 
+check_valid_clan <- function(clan) {
+  if (stringr::str_length(clan) != 8) {
+    cli::cli_abort('{.arg clan} must be 8 characters long')
+  }
+  if (substr(clan, 1, 1) == '#') {
+    cli::cli_abort('{.arg clan} does not include "#"')
+  }
+}
+
+check_valid_key <- function(key) {
+  if (nchar(key) == 0) {
+    cli::cli_abort('Please set API key with {.fn cr_cr_set_key}.')
+  }
+}
 
 #' Gets the api url
 #'

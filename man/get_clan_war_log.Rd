@@ -2,20 +2,20 @@
 % Please edit documentation in R/get_clan_war_log.R
 \name{get_clan_war_log}
 \alias{get_clan_war_log}
-\title{Gets clan war log}
+\title{Gets Clan War Log}
 \usage{
-get_clan_war_log(clan = "99R2PQVR", key = get_Royale())
+get_clan_war_log(clan = "99R2PQVR", key = cr_get_key())
 }
 \arguments{
 \item{clan}{Required. Clan tag.
 Default: 99R2PQVR}
 
-\item{key}{Required. Clash Royale API key. See \href{docs.royaleapi.com/#/}{RoyaleAPI.} \cr
-Default: get_Royale}
+\item{key}{Required. Clash Royale API key. See https://developer.clashroyale.com/#/documentation
+Default: cr_get_key}
 }
 \value{
-Returns clan war log
+Returns clan tibble
 }
 \description{
-Gets clan war log
+Gets Clan War Log
 }

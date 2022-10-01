@@ -4,18 +4,21 @@
 \alias{get_player}
 \title{Get a single player}
 \usage{
-get_player(tag = "JYJQC88", key = get_Royale())
+get_player(tag = "JYJQC88", key = cr_get_key())
 }
 \arguments{
 \item{tag}{Required. The player to return.
 Default: JYJQC88}
 
-\item{key}{Required. API key. See \href{docs.royaleapi.com/#/}{RoyaleAPI.} \cr
-Default: get_Royale}
+\item{key}{Required. API key. See https://developer.clashroyale.com/#/documentation
+Default: \code{cr_get_key()}}
 }
 \value{
 Returns a player's info as a tibble
 }
 \description{
 Gets the player details for one player.
+}
+\examples{
+#TODO
 }

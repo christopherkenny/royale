@@ -2,20 +2,17 @@
 #'
 #' Gets the current version for RoyaleAPI
 #'
-#' @param key Required. API key. See \href{docs.royaleapi.com/#/}{RoyaleAPI.} \cr
-#' Default: get_Royale
+#' @param key Required. API key. See https://developer.clashroyale.com/#/documentation
+#' Default: cr_get_key
 #'
 #' @return
 #' Returns RoyaleAPI version
 #'
 #' @export
-
-get_version <- function(key = get_Royale()) {
+get_version <- function(key = cr_get_key()) {
 
   # Check input ----------------------------------------------------------------
-  if (nchar(key) == 0) {
-    stop('Please set API key with set_Royale.')
-  }
+  check_valid_key(key)
 
   # Call to API ----------------------------------------------------------------
   out <- GET(
@@ -31,5 +28,5 @@ get_version <- function(key = get_Royale()) {
   }
 
   # Return parsed results ------------------------------------------------------
-  return(out)
+  out
 }

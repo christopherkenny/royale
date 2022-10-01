@@ -4,8 +4,8 @@
 #'
 #' @param tag Required. The player to return.
 #' Default: JYJQC88
-#' @param key Required. API key. See \href{https://developer.clashroyale.com/#/documentation}{Clash Royale API} \cr
-#' Default: `get_Royale()`
+#' @param key Required. API key. See https://developer.clashroyale.com/#/documentation
+#' Default: `cr_get_key()`
 #'
 #' @importFrom dplyr tibble
 #' @importFrom httr GET status_code
@@ -15,7 +15,7 @@
 #' @md
 #' @examples
 #' #TODO
-get_player <- function(tag = 'JYJQC88', key = get_Royale()) {
+get_player <- function(tag = 'JYJQC88', key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
   if (stringr::str_length(tag) != 7) {
@@ -24,9 +24,7 @@ get_player <- function(tag = 'JYJQC88', key = get_Royale()) {
   if (substr(tag, 1, 1) == '#') {
     cli::cli_abort('`tag` does not include "#".')
   }
-  if (nchar(key) == 0) {
-    cli::cli_abort('Please set API key with set_Royale.')
-  }
+  check_valid_key(key)
 
   # Use inputs -----------------------------------------------------------------
   url <- paste0(get_api_url(), 'players/%23', tag)

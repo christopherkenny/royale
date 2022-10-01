@@ -2,26 +2,18 @@
 #'
 #' @param clan Required. Clan tag.
 #' Default: 99R2PQVR
-#' @param key Required. Clash Royale API key. See \href{docs.royaleapi.com/#/}{RoyaleAPI.} \cr
-#' Default: get_Royale
+#' @param key Required. Clash Royale API key. See https://developer.clashroyale.com/#/documentation
+#' Default: cr_get_key
 #'
 #' @return
 #' Returns clan war log
 #'
 #' @export
-
-get_current_war <- function(clan = '99R2PQVR', key = get_Royale()) {
+get_current_war <- function(clan = '99R2PQVR', key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
-  if (stringr::str_length(clan) != 8) {
-    stop('"clan" must be 8 characters long')
-  }
-  if (substr(clan, 1, 1) == '#') {
-    stop('"clan" does not include "#"')
-  }
-  if (nchar(key) == 0) {
-    stop('Please set API key with set_Royale.')
-  }
+  check_valid_clan(clan)
+  check_valid_key(key)
 
   # Use inputs -----------------------------------------------------------------
   url <- paste0(get_api_url(), 'clans/%23', clan, '/currentwar')
@@ -37,8 +29,8 @@ get_current_war <- function(clan = '99R2PQVR', key = get_Royale()) {
   }
 
   # Clean output ---------------------------------------------------------------
-  # tib <- bind_rows(out[[1]]$participants)
+  # tib <- dplyr::bind_rows(out[[1]]$participants)
 
   # Return clan war--------------------------------------------------------
-  return(out)
+  out
 }

@@ -4,11 +4,11 @@
 \alias{get_version}
 \title{Get RoyaleAPI version}
 \usage{
-get_version(key = get_Royale())
+get_version(key = cr_get_key())
 }
 \arguments{
-\item{key}{Required. API key. See \href{docs.royaleapi.com/#/}{RoyaleAPI.} \cr
-Default: get_Royale}
+\item{key}{Required. API key. See https://developer.clashroyale.com/#/documentation
+Default: cr_get_key}
 }
 \value{
 Returns RoyaleAPI version

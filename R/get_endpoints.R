@@ -3,19 +3,17 @@
 #' Gets the available endpoints for Clash Royale APi
 #'
 #' @param key Required. API key. See \href{https://developer.clashroyale.com/#/}{Clash Royale Api} \cr
-#' Default: get_Royale
+#' Default: cr_get_key
 #'
 #'
 #' @importFrom httr status_code GET content add_headers
 #' @return Returns available endpoints
 #'
-#' @enoRd
-get_endpoints <- function(key = get_Royale()) {
+#' @noRd
+get_endpoints <- function(key = cr_get_key()) {
 
   # Check input ----------------------------------------------------------------
-  if (nchar(key) == 0) {
-    stop('Please set API key with set_Royale.')
-  }
+  check_valid_key(key)
 
   # Call to API ----------------------------------------------------------------
   out <- GET(
@@ -25,11 +23,11 @@ get_endpoints <- function(key = get_Royale()) {
 
   # Check/Clean output ---------------------------------------------------------
   if (status_code(out) != 200) {
-    stop(status_error(status_code(out)))
+    cli::cli_abort(status_error(status_code(out)))
   } else {
     out <- content(out)
   }
 
   # Return parsed results ------------------------------------------------------
-  return(out)
+  out
 }
