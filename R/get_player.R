@@ -4,7 +4,7 @@
 #'
 #' @param tag Required. The player to return.
 #' Default: JYJQC88
-#' @param key Required. API key. See https://developer.clashroyale.com/#/documentation
+#' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: `cr_get_key()`
 #'
 #' @importFrom dplyr tibble
@@ -15,7 +15,7 @@
 #' @md
 #' @examples
 #' #TODO
-get_player <- function(tag = 'JYJQC88', key = cr_get_key()) {
+cr_get_player <- function(tag = 'JYJQC88', key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
   if (stringr::str_length(tag) != 7) {

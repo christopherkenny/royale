@@ -9,7 +9,7 @@
 #' Returns clan war log
 #'
 #' @export
-get_current_war <- function(clan = '99R2PQVR', key = cr_get_key()) {
+cr_get_current_war <- function(clan = '99R2PQVR', key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
   check_valid_clan(clan)

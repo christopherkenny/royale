@@ -10,7 +10,7 @@
 #' @return Returns available endpoints
 #'
 #' @noRd
-get_endpoints <- function(key = cr_get_key()) {
+cr_get_endpoints <- function(key = cr_get_key()) {
 
   # Check input ----------------------------------------------------------------
   check_valid_key(key)

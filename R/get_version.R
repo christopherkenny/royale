@@ -9,7 +9,7 @@
 #' Returns RoyaleAPI version
 #'
 #' @export
-get_version <- function(key = cr_get_key()) {
+cr_get_version <- function(key = cr_get_key()) {
 
   # Check input ----------------------------------------------------------------
   check_valid_key(key)

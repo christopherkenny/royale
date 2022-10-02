@@ -9,7 +9,7 @@
 #' Returns clan tibble
 #'
 #' @export
-get_clan_war_log <- function(clan = '99R2PQVR', key = cr_get_key()) {
+cr_get_clan_war_log <- function(clan = '99R2PQVR', key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
   check_valid_clan(clan)
