@@ -20,5 +20,8 @@ None
 Sets your Clash Royale API key for default use.
 }
 \examples{
-# TODO
+\dontrun{
+cr_set_key('1234')
+}
+
 }

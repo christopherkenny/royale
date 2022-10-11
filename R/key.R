@@ -11,7 +11,10 @@
 #' @export
 #'
 #' @examples
-#' # TODO
+#' \dontrun{
+#' cr_set_key('1234')
+#' }
+#'
 cr_set_key <- function(key, overwrite = FALSE, install = FALSE) {
   if (missing(key)) {
     cli::cli_abort('Input {.arg key} cannot be missing.')
@@ -60,21 +63,33 @@ cr_set_key <- function(key, overwrite = FALSE, install = FALSE) {
 
 #' Get RoyaleAPI key
 #'
-#' Retrieves RoyaleAPI key set by `cr_set_key()`.
+#' Retrieves RoyaleAPI key set by `cr_set_key()` if `cr_get_key()` or indicates if
+#' one is set if `cr_has_key()`.
 #'
 #' @return string key
 #'
+#' @name key
+#'
 #' @export
+#'
+#' @examples
+#' cr_has_key()
 cr_get_key <- function() {
 
   # Add to environment ---------------------------------------------------------
   out <- Sys.getenv('CR_API_KEY')
 
   # Check for set key ----------------------------------------------------------
-  if (out == '') {
-    cli::cli_abort('No key found. Set key with {.fn cr_set_key} or specify key.')
-  }
+  # if (out == '') {
+  #   cli::cli_abort('No key found. Set key with {.fn cr_set_key} or specify key.')
+  # }
 
   # Return key -----------------------------------------------------------------
   out
+}
+
+#' @rdname key
+#' @export
+cr_has_key <- function() {
+  Sys.getenv('CR_API_KEY') != ''
 }

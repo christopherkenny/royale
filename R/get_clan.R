@@ -11,24 +11,21 @@
 #' @return Returns a player's info as a tibble
 #'
 #' @export
+#'
+#' @examplesIf royale::cr_has_key()
+#'
 cr_get_clan <- function(clan = '99R2PQVR', key = cr_get_key()) {
 
-  # Check inputs ---------------------------------------------------------------
+  # Check inputs ---
   check_valid_clan(clan)
   check_valid_key(key)
 
-  # Use inputs -----------------------------------------------------------------
-  url <- paste0(get_api_url(), 'clans/%23', clan)
-
-  # Call to API ----------------------------------------------------------------
-  out <- GET(url, config = add_headers(`Authorization: Bearer` = key))
-
-  # Check/Clean output ---------------------------------------------------------
-  if (status_code(out) != 200) {
-    cli::cli_abort(status_error(status_code(out)))
-  } else {
-    out <- content(x = out, as = 'parsed')
-  }
+  # Call to API ---
+  resp <- req_base() |>
+    req_clan(clan) |>
+    req_header(key) |>
+    httr2::req_perform() |>
+    httr2::resp_body_json()
 
   # Return player --------------------------------------------------------------
   out

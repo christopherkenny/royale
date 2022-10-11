@@ -25,7 +25,7 @@ cr_get_endpoints <- function(key = cr_get_key()) {
   if (status_code(out) != 200) {
     cli::cli_abort(status_error(status_code(out)))
   } else {
-    out <- content(out)
+    out <- content(out, as = 'text')
   }
 
   # Return parsed results ------------------------------------------------------

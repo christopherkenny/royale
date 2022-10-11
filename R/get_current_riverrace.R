@@ -9,28 +9,43 @@
 #' Returns river race as ___
 #'
 #' @export
+#'
+#' @examplesIf royale::cr_has_key()
+#'
+#' cr_get_current_riverrace('99R2PQVR')
 cr_get_current_riverrace <- function(clan = '99R2PQVR', key = cr_get_key()) {
 
-  # Check inputs ---------------------------------------------------------------
+  # Check inputs ---
   check_valid_clan(clan)
   check_valid_key(key)
 
-  # Use inputs -----------------------------------------------------------------
-  url <- paste0(get_api_url(), 'clans/%23', clan, '/currentriverrace')
+  # Call to API ---
+  resp <- req_base() |>
+    req_clan(clan) |>
+    httr2::req_url_path_append('currentriverrace') |>
+    req_header(key) |>
+    httr2::req_perform() |>
+    httr2::resp_body_json()
 
-  # Call to API ----------------------------------------------------------------
-  out <- GET(url, config = add_headers(`Authorization: Bearer` = key))
+  # Clean output ---
+  out <- resp |>
+    widen() |>
+    clean_names()
 
-  # Check/Extract output -------------------------------------------------------
-  if (status_code(out) != 200) {
-    stop(status_error(status_code(out)))
-  } else {
-    out <- content(x = out, as = 'parsed')
-  }
+  out$clan <- list(
+    widen_clan(resp$clan)
+  )
 
-  # Clean output ---------------------------------------------------------------
-  # tib <- dplyr::bind_rows(out[[1]]$participants)
+  out$clans <- list(
+    dplyr::bind_rows(lapply(resp$clans, widen_clan))
+  )
 
-  # Return clan war--------------------------------------------------------
+  out$period_logs <- list(
+    dplyr::bind_rows(resp$periodLogs) |>
+      tidyr::unnest_wider(col = items) |>
+      tidyr::unnest_wider(.data$clan, names_sep = '_') |>
+      clean_names()
+  )
+
   out
 }

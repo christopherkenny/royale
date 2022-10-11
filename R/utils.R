@@ -52,7 +52,7 @@ check_valid_clan <- function(clan) {
 
 check_valid_key <- function(key) {
   if (nchar(key) == 0) {
-    cli::cli_abort('Please set API key with {.fn cr_cr_set_key}.')
+    cli::cli_abort('Please set API key with {.fn cr_set_key}.')
   }
 }
 
@@ -61,4 +61,40 @@ check_valid_key <- function(key) {
 #' @noRd
 get_api_url <- function() {
   'https://api.clashroyale.com/v1/'
+}
+
+req_base <- function() {
+  httr2::request(base_url = get_api_url())
+}
+
+req_clan <- function(req, x) {
+  httr2::req_url_path_append(req, 'clans', paste0('%23', x))
+}
+
+req_header <- function(req, key) {
+  httr2::req_auth_bearer_token(req, key)
+}
+
+widen <- function(x) {
+  x |>
+    tibble::enframe() |>
+    tidyr::pivot_wider() |>
+    tidyr::unnest_wider(col = where(~purrr::vec_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
+    dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1'))
+}
+
+widen_clan <- function(x) {
+  widen(x) |>
+    tidyr::unnest_longer(.data$participants) |>
+    tidyr::unnest_wider(participants, names_sep = '_') |>
+    clean_names() |>
+    dplyr::rename_with(.fn = function(x) paste0('clan_', x))
+}
+
+clean_names <- function(x) {
+  out <-names(x) |>
+    stringr::str_replace_all('\\.', '_') |>
+    stringr::str_replace_all('([a-z])([A-Z])', '\\1_\\2') |>
+    stringr::str_to_lower()
+  stats::setNames(object = x, nm = out)
 }
