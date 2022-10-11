@@ -4,16 +4,23 @@
 #' Default: 99R2PQVR
 #' @param key Required. Clash Royale API key. See https://developer.clashroyale.com/#/documentation
 #' Default: cr_get_key
+#' @templateVar limit TRUE
+#' @templateVar after TRUE
+#' @templateVar before TRUE
+#' @template  template
 #'
-#' @return
-#' Returns river race as ___
+#' @return `tibble` with list columsn for clan, clans, and history.
+#'
+#' @concept clan
 #'
 #' @export
 #'
 #' @examplesIf royale::cr_has_key()
 #'
 #' cr_get_current_riverrace('99R2PQVR')
-cr_get_current_riverrace <- function(clan = '99R2PQVR', key = cr_get_key()) {
+cr_get_current_riverrace <- function(clan = '99R2PQVR',
+                                     limit = NULL, after = NULL, before = NULL,
+                                     key = cr_get_key()) {
 
   # Check inputs ---
   check_valid_clan(clan)
@@ -24,6 +31,7 @@ cr_get_current_riverrace <- function(clan = '99R2PQVR', key = cr_get_key()) {
     req_clan(clan) |>
     httr2::req_url_path_append('currentriverrace') |>
     req_header(key) |>
+    req_where(limit, after, before) |>
     httr2::req_perform() |>
     httr2::resp_body_json()
 

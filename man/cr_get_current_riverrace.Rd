@@ -4,18 +4,34 @@
 \alias{cr_get_current_riverrace}
 \title{Gets current River Race}
 \usage{
-cr_get_current_riverrace(clan = "99R2PQVR", key = cr_get_key())
+cr_get_current_riverrace(
+  clan = "99R2PQVR",
+  limit = NULL,
+  after = NULL,
+  before = NULL,
+  key = cr_get_key()
+)
 }
 \arguments{
 \item{clan}{Required. Clan tag.
 Default: 99R2PQVR}
 
+\item{limit}{return only items that occur before this marker.}
+
+\item{after}{return only items that occur after this marker.}
+
 \item{key}{Required. Clash Royale API key. See https://developer.clashroyale.com/#/documentation
 Default: cr_get_key}
 }
 \value{
-Returns river race as ___
+`tibble` with list columsn for clan, clans, and history.
 }
 \description{
 Gets current River Race
+}
+\examples{
+\dontshow{if (royale::cr_has_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+
+cr_get_current_riverrace('99R2PQVR')
+\dontshow{\}) # examplesIf}
 }

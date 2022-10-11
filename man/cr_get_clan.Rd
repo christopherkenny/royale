@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_clan.R
 \name{cr_get_clan}
 \alias{cr_get_clan}
-\title{Get a single player}
+\title{Get a clan}
 \usage{
 cr_get_clan(clan = "99R2PQVR", key = cr_get_key())
 }
@@ -13,8 +13,13 @@ cr_get_clan(clan = "99R2PQVR", key = cr_get_key())
 Default: cr_get_key}
 }
 \value{
-Returns a player's info as a tibble
+a `tibble` with each row as a player
 }
 \description{
 Gets full clan details
+}
+\examples{
+\dontshow{if (royale::cr_has_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+cr_get_clan('99R2PQVR')
+\dontshow{\}) # examplesIf}
 }

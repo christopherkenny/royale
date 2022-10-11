@@ -75,6 +75,15 @@ req_header <- function(req, key) {
   httr2::req_auth_bearer_token(req, key)
 }
 
+req_where <- function(req, limit, after, before) {
+  httr2::req_url_query(
+    req,
+    'limit' = limit,
+    'after' = after,
+    'before' = before
+  )
+}
+
 widen <- function(x) {
   x |>
     tibble::enframe() |>

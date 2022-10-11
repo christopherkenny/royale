@@ -1,4 +1,4 @@
-#' Get a single player
+#' Get a clan
 #'
 #' Gets full clan details
 #'
@@ -6,14 +6,14 @@
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: cr_get_key
 #'
-#' @importFrom dplyr tibble
-#' @importFrom httr GET status_code
-#' @return Returns a player's info as a tibble
+#' @return a `tibble` with each row as a player
+#'
+#' @concept clan
 #'
 #' @export
 #'
 #' @examplesIf royale::cr_has_key()
-#'
+#' cr_get_clan('99R2PQVR')
 cr_get_clan <- function(clan = '99R2PQVR', key = cr_get_key()) {
 
   # Check inputs ---
@@ -27,6 +27,12 @@ cr_get_clan <- function(clan = '99R2PQVR', key = cr_get_key()) {
     httr2::req_perform() |>
     httr2::resp_body_json()
 
-  # Return player --------------------------------------------------------------
+  out <- resp |>
+    widen() |>
+    tidyr::unnest_longer(.data$memberList) |>
+    tidyr::unnest_wider(.data$memberList, names_sep = '_') |>
+    clean_names() |>
+    dplyr::rename_with(.fn = function(x) stringr::str_replace(x, 'member_list', 'player'))
+
   out
 }
