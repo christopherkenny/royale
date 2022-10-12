@@ -35,7 +35,7 @@ cr_get_player('JYJQC88')
 #> # A tibble: 1 × 41
 #>   tag      name     exp_l…¹ troph…² best_…³  wins losses battl…⁴ three…⁵ chall…⁶
 #>   <chr>    <chr>      <int>   <int>   <int> <int>  <int>   <int>   <int>   <int>
-#> 1 #JYJQC88 christo…      14    5984    6636  5637   4375   18223    2964    2538
+#> 1 #JYJQC88 christo…      14    6012    6636  5638   4375   18224    2964    2538
 #> # … with 31 more variables: challenge_max_wins <int>,
 #> #   tournament_cards_won <int>, tournament_battle_count <int>, role <chr>,
 #> #   donations <int>, donations_received <int>, total_donations <int>,
@@ -53,16 +53,16 @@ clan
 #> # A tibble: 50 × 28
 #>    tag       name  type  descr…¹ badge…² clan_…³ clan_…⁴ locat…⁵ locat…⁶ locat…⁷
 #>    <chr>     <chr> <chr> <chr>     <int>   <int>   <int>   <int> <chr>   <lgl>  
-#>  1 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
-#>  2 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
-#>  3 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
-#>  4 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
-#>  5 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
-#>  6 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
-#>  7 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
-#>  8 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
-#>  9 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
-#> 10 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#>  1 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
+#>  2 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
+#>  3 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
+#>  4 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
+#>  5 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
+#>  6 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
+#>  7 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
+#>  8 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
+#>  9 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
+#> 10 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57650    3550  5.70e7 Intern… FALSE  
 #> # … with 40 more rows, 18 more variables: required_trophies <int>,
 #> #   donations_per_week <int>, clan_chest_status <chr>, clan_chest_level <int>,
 #> #   clan_chest_max_level <int>, members <int>, player_tag <chr>,
@@ -85,7 +85,7 @@ clan |>
 #>  2 #2R2QPG… NotOzil member  202210…      14    6125 <named list>       2       2
 #>  3 #CC2YJP… Cycles  member  202210…      14    6031 <named list>       3       4
 #>  4 #229GLR… ⚡X.MA… coLead… 202210…      14    6018 <named list>       4       5
-#>  5 #JYJQC88 christ… coLead… 202210…      14    5984 <named list>       5       3
+#>  5 #JYJQC88 christ… coLead… 202210…      14    6012 <named list>       5       3
 #>  6 #80J022… ELECTR… member  202210…      14    5982 <named list>       6       6
 #>  7 #2J0Q8R… MOHAMM… elder   202210…      14    5933 <named list>       7       9
 #>  8 #20CG9P… KARIM   member  202210…      14    5923 <named list>       8       7
@@ -99,6 +99,12 @@ clan |>
 #> #   donations_per_week <int>, clan_chest_status <chr>, clan_chest_level <int>,
 #> #   clan_chest_max_level <int>, members <int>, and abbreviated variable names …
 ```
+
+## RoyaleAPI Proxy
+
+If you are using a RoyaleAPI proxy, this can be configured by setting
+`options(royale.use_proxy = TRUE)`. This can be turned off by setting
+\``options(royale.use_proxy = FALSE)`. It is off by default.
 
 ## Disclaimer
 
