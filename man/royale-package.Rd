@@ -6,7 +6,16 @@
 \alias{royale-package}
 \title{royale: Clash Royale API}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 R interface to the official API for Clash Royale \url{https://developer.clashroyale.com/#/}.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{http://christophertkenny.com/royale/}
+}
+
 }
 \author{
 \strong{Maintainer}: Christopher T. Kenny \email{christopherkenny@fas.harvard.edu} (\href{https://orcid.org/0000-0002-9386-6860}{ORCID})
