@@ -4,7 +4,7 @@
 \name{royale-package}
 \alias{royale}
 \alias{royale-package}
-\title{royale: Clash Royale API wrapper for R}
+\title{royale: Clash Royale API}
 \description{
 R interface to the official API for Clash Royale \url{https://developer.clashroyale.com/#/}.
 }

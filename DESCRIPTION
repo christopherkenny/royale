@@ -1,19 +1,23 @@
 Package: royale
 Version: 0.0.1
-Date: 2021-11-06
-Title: Clash Royale API wrapper for R
+Date: 2022-10-11
+Title: Clash Royale API
 Description: R interface to the official API for Clash Royale <https://developer.clashroyale.com/#/>.
 Authors@R: person("Christopher T.", "Kenny", email = "christopherkenny@fas.harvard.edu", 
     role = c("aut", "cre"), comment = c(ORCID = "0000-0002-9386-6860"))
-Imports:
-    dplyr,
-    stringr,
-    httr2,
-    tibble,
-    cli,
-    tidyr,
-    purrr,
-    rlang
+Imports: 
+    dplyr (>= 1.0.10),
+    stringr (>= 1.4.1),
+    httr2 (>= 0.2.1),
+    tibble (>= 3.1.8),
+    cli (>= 3.3.0),
+    tidyr (>= 1.2.1),
+    purrr (>= 0.3.4),
+    rlang (>= 1.0.5)
 Encoding: UTF-8
 RoxygenNote: 7.2.1
 License: MIT + file LICENSE
+Suggests: 
+    httptest2 (>= 0.1.0),
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

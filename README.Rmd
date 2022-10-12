@@ -18,11 +18,11 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of royale is to ...
+`royale` provides an R interface to the [Clash Royale API](https://developer.clashroyale.com/#/).
 
 ## Installation
 
-You can install the development version of royale from [GitHub](https://github.com/) with:
+You can install the development version of `royale` from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -30,6 +30,29 @@ devtools::install_github("christopherkenny/royale")
 ```
 
 ## Example
+
+Current endpoints are included for cards, rankings, tournaments, players, and clans.
+
+To get a player's data, we can use:
+```{r}
+library(royale)
+
+cr_get_player('JYJQC88')
+```
+
+To get a clan, we can use:
+
+```{r}
+clan <- cr_get_clan('99R2PQVR')
+clan
+```
+Clans are put into long form, so each player in a clan is an observation:
+```{r}
+clan |> 
+  dplyr::relocate(dplyr::starts_with('player'), .before = dplyr::everything())
+```
+
+
 
 ## Disclaimer
 

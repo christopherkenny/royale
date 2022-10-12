@@ -1,4 +1,3 @@
-# Doesn't currently return anything but the season id? 2022-10-11
 #' Get Global Seasons
 #'
 #' @param season Required. Season ID, such as '2022-09'
@@ -18,8 +17,8 @@
 #' @examplesIf royale::cr_has_key()
 #' cr_get_global_seasons()
 cr_get_global_seasons <- function(season,
-                                          limit = NULL, after = NULL, before = NULL,
-                                          key = cr_get_key()) {
+                                  limit = NULL, after = NULL, before = NULL,
+                                  key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
   check_valid_key(key)
