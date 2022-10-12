@@ -69,7 +69,11 @@ check_valid_key <- function(key) {
 #'
 #' @noRd
 get_api_url <- function() {
-  'https://api.clashroyale.com/v1/'
+  if (getOption('royale.use_proxy', FALSE)) {
+    'https://proxy.royaleapi.dev/v1/'
+  } else {
+    'https://api.clashroyale.com/v1/'
+  }
 }
 
 req_base <- function() {
