@@ -60,7 +60,7 @@ check_valid_clan <- function(clan) {
 
 check_valid_key <- function(key) {
   if (nchar(key) == 0) {
-    cli::cli_abort('Please set API key with {.fn cr_set_key}.')
+    cli::cli_inform('Please set API key with {.fn cr_set_key}.')
   }
   invisible(key)
 }
