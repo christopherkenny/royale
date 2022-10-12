@@ -29,8 +29,8 @@ cr_get_clan <- function(clan = '99R2PQVR', key = cr_get_key()) {
 
   out <- resp |>
     widen() |>
-    tidyr::unnest_longer(.data$memberList) |>
-    tidyr::unnest_wider(.data$memberList, names_sep = '_') |>
+    tidyr::unnest_longer('memberList') |>
+    tidyr::unnest_wider('memberList', names_sep = '_') |>
     clean_names() |>
     dplyr::rename_with(.fn = function(x) stringr::str_replace(x, 'member_list', 'player'))
 

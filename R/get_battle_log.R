@@ -29,12 +29,12 @@ cr_get_battle_log <- function(tag = 'JYJQC88', key = cr_get_key()) {
 
   out <- resp |>
     tibble::enframe() |>
-    tidyr::unnest_wider(.data$value) |>
-    dplyr::select(-.data$name) |>
-    tidyr::unnest_wider(c(.data$opponent, .data$arena, .data$gameMode, .data$team, .data$opponent), names_sep = '_') |>
+    tidyr::unnest_wider('value') |>
+    dplyr::select(-'name') |>
+    tidyr::unnest_wider(c('opponent', 'arena', 'gameMode', 'team', 'opponent'), names_sep = '_') |>
     dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
-    tidyr::unnest_wider(c(.data$team, .data$opponent), names_sep = '_') |>
-    tidyr::unnest_wider(c(.data$team_clan, .data$opponent_clan), names_sep = '_') |>
+    tidyr::unnest_wider(c('team', 'opponent'), names_sep = '_') |>
+    tidyr::unnest_wider(c('team_clan', 'opponent_clan'), names_sep = '_') |>
     dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
     clean_names()
 

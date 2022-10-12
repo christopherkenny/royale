@@ -1,0 +1,53 @@
+{
+    "tag": "#2Y80JU8G",
+    "type": "open",
+    "status": "inPreparation",
+    "creatorTag": "#2RGGC9PCP",
+    "name": "A TWISTED ☘️LUCK VS CLANS",
+    "description": "JOIN OUR FRIENDLY CLAN AND EARN REWARDS AND A CHANCE FOR A FREE PASS. WE ARE ACTIVE IN WAR.",
+    "levelCap": 14,
+    "firstPlaceCardPrize": 0,
+    "capacity": 3,
+    "maxCapacity": 1000,
+    "preparationDuration": 3600,
+    "duration": 14400,
+    "createdTime": "20221012T023433.000Z",
+    "membersList": [
+        {
+            "tag": "#2RGGC9PCP",
+            "name": "ToxicSkillz",
+            "score": 0,
+            "rank": 1,
+            "clan": {
+                "tag": "#YLUULQ8Y",
+                "name": "TWISTED ☘️LUCK",
+                "badgeId": 16000170
+            }
+        },
+        {
+            "tag": "#VYPQ0990",
+            "name": "\"Luiz Henrique\"",
+            "score": 0,
+            "rank": 2,
+            "clan": {
+                "tag": "#PVG982QY",
+                "name": "A Horda",
+                "badgeId": 16000165
+            }
+        },
+        {
+            "tag": "#2Q82Q8920",
+            "name": "Ice_Bomber❄",
+            "score": 0,
+            "rank": 3,
+            "clan": {
+                "tag": "#PPJUGY80",
+                "name": "INFINITY ICE",
+                "badgeId": 16000168
+            }
+        }
+    ],
+    "gameMode": {
+        "id": 72000009
+    }
+}

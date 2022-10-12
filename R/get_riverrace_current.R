@@ -49,8 +49,8 @@ cr_get_riverrace_current <- function(clan = '99R2PQVR',
 
   out$period_logs <- list(
     dplyr::bind_rows(resp$periodLogs) |>
-      tidyr::unnest_wider(.data$items) |>
-      tidyr::unnest_wider(.data$clan, names_sep = '_') |>
+      tidyr::unnest_wider('items') |>
+      tidyr::unnest_wider('clan', names_sep = '_') |>
       clean_names()
   )
 

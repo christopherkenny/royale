@@ -30,9 +30,9 @@ cr_get_player <- function(tag = 'JYJQC88', key = cr_get_key()) {
 
   out <- resp |>
     widen() |>
-    tidyr::unnest_wider(.data$leagueStatistics, names_sep = '_') |>
+    tidyr::unnest_wider('leagueStatistics', names_sep = '_') |>
     tidyr::unnest_wider(dplyr::starts_with('leagueStatistics'), names_sep = '_') |>
-    tidyr::unnest_wider(.data$currentFavouriteCard, names_sep = '_') |>
+    tidyr::unnest_wider('currentFavouriteCard', names_sep = '_') |>
     clean_names()
 
   out$badges <- list(

@@ -1,0 +1,129 @@
+{
+    "items": [
+        {
+            "tag": "#J0VU9CGP",
+            "name": "CAL Dominik",
+            "expLevel": 14,
+            "trophies": 8492,
+            "rank": 1,
+            "clan": {
+                "tag": "#Q2YQR9VQ",
+                "name": "☆50☆SKCALALAS",
+                "badgeId": 16000029
+            }
+        },
+        {
+            "tag": "#L8RUUCL0Y",
+            "name": "Shoko❤️SFIX",
+            "expLevel": 14,
+            "trophies": 8439,
+            "rank": 2,
+            "clan": {
+                "tag": "#QQRVV22R",
+                "name": "☆50 STARS☆",
+                "badgeId": 16000097
+            }
+        },
+        {
+            "tag": "#Y9R22RQ2",
+            "name": "CMG Ian77",
+            "expLevel": 14,
+            "trophies": 8434,
+            "rank": 3,
+            "clan": {
+                "tag": "#L89GRCRR",
+                "name": "Clan #L89GRCRR",
+                "badgeId": 16000154
+            }
+        },
+        {
+            "tag": "#RVCQ2CQGJ",
+            "name": "Stardust｜繁星✨",
+            "expLevel": 14,
+            "trophies": 8420,
+            "rank": 4,
+            "clan": {
+                "tag": "#Q2RP2Q2V",
+                "name": "CASINO ROYALE",
+                "badgeId": 16000029
+            }
+        },
+        {
+            "tag": "#G9YV9GR8R",
+            "name": "Mohamed Light",
+            "expLevel": 14,
+            "trophies": 8417,
+            "rank": 5,
+            "clan": {
+                "tag": "#QRGR0CQ9",
+                "name": "The Golden Wing",
+                "badgeId": 16000020
+            }
+        },
+        {
+            "tag": "#2UJ2QQJJP",
+            "name": "Takuma",
+            "expLevel": 14,
+            "trophies": 8397,
+            "rank": 6,
+            "clan": {
+                "tag": "#Q0P8PY9V",
+                "name": "top 1",
+                "badgeId": 16000014
+            }
+        },
+        {
+            "tag": "#JYQLP2J2P",
+            "name": "Rémi",
+            "expLevel": 14,
+            "trophies": 8396,
+            "rank": 7,
+            "clan": {
+                "tag": "#PPCLCJG9",
+                "name": "AK Syndicate",
+                "badgeId": 16000044
+            }
+        },
+        {
+            "tag": "#JQ229JQCJ",
+            "name": "西蒙｜Tourist✨",
+            "expLevel": 14,
+            "trophies": 8390,
+            "rank": 8,
+            "clan": {
+                "tag": "#PPCLCJG9",
+                "name": "AK Syndicate",
+                "badgeId": 16000044
+            }
+        },
+        {
+            "tag": "#JCPPGJVRL",
+            "name": "LB-AgonyKing",
+            "expLevel": 14,
+            "trophies": 8385,
+            "rank": 9,
+            "clan": {
+                "tag": "#Y20P8GCC",
+                "name": "Los Puercos",
+                "badgeId": 16000141
+            }
+        },
+        {
+            "tag": "#YP9VPGUUG",
+            "name": "CHI Pompeyo4",
+            "expLevel": 14,
+            "trophies": 8379,
+            "rank": 10,
+            "clan": {
+                "tag": "#Q2YQR9VQ",
+                "name": "☆50☆SKCALALAS",
+                "badgeId": 16000029
+            }
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "after": "eyJwb3MiOjEwfQ"
+        }
+    }
+}

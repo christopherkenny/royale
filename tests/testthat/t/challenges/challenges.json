@@ -1,0 +1,470 @@
+[
+    {
+        "type": "singleChallenge",
+        "startTime": "20221010T080000.000Z",
+        "endTime": "19700120T064633.600Z",
+        "challenges": [
+            {
+                "id": 73006270,
+                "name": "Mega Deck Challenge",
+                "description": "Build a Mega Deck with 18 cards from your collection. 3 losses and you're out, but you will have a chance to reset your losses and keep your progress.",
+                "winMode": "win",
+                "casual": false,
+                "maxLosses": 3,
+                "gameMode": {
+                    "id": 72000119,
+                    "name": "DoubleDeck_Tournament"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 4000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 80,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 3000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 1,
+                        "consumableName": "ChestKey"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 2000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "tradeToken",
+                        "amount": 1,
+                        "rarity": "common"
+                    },
+                    {
+                        "type": "chest",
+                        "chest": "Gold"
+                    }
+                ],
+                "maxWins": 7,
+                "iconUrl": "https://event-assets.clashroyale.com/47e56b22-6dab-49dc-b25e-ecafddd46c13_2022MegaDeck.png"
+            }
+        ]
+    },
+    {
+        "type": "singleChallenge",
+        "startTime": "20221003T080000.000Z",
+        "endTime": "19700120T063628.800Z",
+        "challenges": [
+            {
+                "id": 73006272,
+                "name": "Nightmare Bats Challenge",
+                "description": "Nightmare Bats spawn on both sides of the arena! They're hidden from troops, so rely on spells to keep them under control. 3 losses and you’re out, but you still have a chance to reset your losses and continue to play.",
+                "winMode": "win",
+                "casual": false,
+                "maxLosses": 3,
+                "gameMode": {
+                    "id": 72000322,
+                    "name": "YetAnotherBat_Tournament"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 4000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 80,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 2000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "tradeToken",
+                        "amount": 1,
+                        "rarity": "common"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 2000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 1,
+                        "consumableName": "ChestKey"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "tradeToken",
+                        "amount": 1,
+                        "rarity": "rare"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": null
+                    }
+                ],
+                "maxWins": 10,
+                "iconUrl": "https://event-assets.clashroyale.com/d8bbcca4-deb6-4739-a4a3-06689dffc1e7_Nightmare_bat_banner.png"
+            }
+        ]
+    },
+    {
+        "type": "singleChallenge",
+        "startTime": "20221017T080000.000Z",
+        "endTime": "19700120T065931.200Z",
+        "challenges": [
+            {
+                "id": 73006274,
+                "name": "Which Witch? Draft Challenge",
+                "description": "Pick 4 cards and receive 4 from your opponent; one of you will play with Witch, the other will play with Night Witch. Collect rewards with no losses!",
+                "winMode": "win",
+                "casual": true,
+                "maxLosses": 0,
+                "gameMode": {
+                    "id": 72000005,
+                    "name": "DraftMode"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 4000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 80,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 2000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 1,
+                        "consumableName": "ChestKey"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 2000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "tradeToken",
+                        "amount": 1,
+                        "rarity": "epic"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 50,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": null
+                    }
+                ],
+                "maxWins": 10,
+                "iconUrl": "https://event-assets.clashroyale.com/c72c3a58-436a-4d3b-8ffd-e331cf4f111d_which_witch_banner.png"
+            }
+        ]
+    },
+    {
+        "type": "singleChallenge",
+        "startTime": "20221003T080000.000Z",
+        "endTime": "19700120T063628.800Z",
+        "challenges": [
+            {
+                "id": 73006276,
+                "name": "Draft Challenge",
+                "description": "Pick 4 cards and receive 4 from your opponent. 3 losses and you’re out, but you will have a chance to reset your losses and keep your progress.",
+                "winMode": "win",
+                "casual": false,
+                "maxLosses": 3,
+                "gameMode": {
+                    "id": 72000005,
+                    "name": "DraftMode"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 10,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 500,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 20,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 500,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 30,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    }
+                ],
+                "maxWins": 6,
+                "iconUrl": "https://event-assets.clashroyale.com/b43a9c4b-4963-455a-b295-dd15b6c429f0_draft_challenge.png"
+            }
+        ]
+    },
+    {
+        "type": "singleChallenge",
+        "startTime": "20221010T080000.000Z",
+        "endTime": "19700120T064633.600Z",
+        "challenges": [
+            {
+                "id": 73006277,
+                "name": "Sudden Death Challenge",
+                "description": "The match starts in Sudden Death - whoever takes the first tower wins! 3 losses and you’re out, but you still have a chance to reset your losses and continue to play.",
+                "winMode": "win",
+                "casual": false,
+                "maxLosses": 3,
+                "gameMode": {
+                    "id": 72000031,
+                    "name": "Overtime_Friendly"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 10,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 500,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 20,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 500,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 30,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    }
+                ],
+                "maxWins": 6,
+                "iconUrl": "https://event-assets.clashroyale.com/44524adc-8196-44e4-a769-cfddf1152c0c_suddendeath_challenge_01.png"
+            }
+        ]
+    },
+    {
+        "type": "singleChallenge",
+        "startTime": "20221017T080000.000Z",
+        "endTime": "19700120T065638.400Z",
+        "challenges": [
+            {
+                "id": 73006278,
+                "name": "Ramp Up Challenge",
+                "description": "Ramp Up Challenge becomes more and more hectic throughout each battle... 1x, 2x and eventually 3x Elixir! 3 losses and you’re out, but you will have a chance to reset your losses and continue to play to the final reward!",
+                "winMode": "win",
+                "casual": false,
+                "maxLosses": 3,
+                "gameMode": {
+                    "id": 72000033,
+                    "name": "RampUpElixir_Friendly"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 10,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 20,
+                        "consumableName": "CosmeticsToken"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 500,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 30,
+                        "consumableName": "CosmeticsToken"
+                    }
+                ],
+                "maxWins": 5,
+                "iconUrl": "https://event-assets.clashroyale.com/9c14db0f-26fe-44f8-93a8-c4d1a9d86870_rampup_challenge.png"
+            }
+        ]
+    },
+    {
+        "type": "singleChallenge",
+        "startTime": "20221012T080000.000Z",
+        "endTime": "19700120T064633.600Z",
+        "challenges": [
+            {
+                "id": 73006285,
+                "name": "Royal Tournament",
+                "description": "Bring your best deck into battle! Win as many battles as you can to earn rewards! Make it to the top 100 to earn an Exclusive Emote + 100000 bonus gold!",
+                "winMode": "win",
+                "casual": false,
+                "maxLosses": 5,
+                "gameMode": {
+                    "id": 72000291,
+                    "name": "Challenge_AllCards_EventDeck"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 1,
+                        "consumableName": "WildcardLegendary"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 10000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 5,
+                        "consumableName": "WildcardEpic"
+                    },
+                    {
+                        "type": "chest",
+                        "chest": "Epic"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 10000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 25,
+                        "consumableName": "WildcardRare"
+                    },
+                    {
+                        "type": "chest",
+                        "chest": "Giant"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 10000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 25,
+                        "consumableName": "WildcardRare"
+                    },
+                    {
+                        "type": "chest",
+                        "chest": "Kings"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 10000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 100,
+                        "consumableName": "WildcardCommon"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 1,
+                        "consumableName": "ChestKey"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 10000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "chest",
+                        "chest": "Magic"
+                    }
+                ],
+                "maxWins": 15,
+                "iconUrl": "https://event-assets.clashroyale.com/c16fb977-1320-46db-8240-8de515ac0683_S17_global_tournament.png"
+            }
+        ]
+    }
+]

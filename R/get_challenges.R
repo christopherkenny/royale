@@ -29,9 +29,9 @@ cr_get_challenges <- function(limit = NULL, after = NULL, before = NULL, key = c
 
   out <- resp |>
     dplyr::bind_rows() |>
-    tidyr::unnest_wider(.data$challenges, names_sep = '_') |>
+    tidyr::unnest_wider('challenges', names_sep = '_') |>
     dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
-    tidyr::unnest_wider(c(.data$challenges_gameMode), names_sep = '_') |>
+    tidyr::unnest_wider(c('challenges_gameMode'), names_sep = '_') |>
     clean_names()
 
   out

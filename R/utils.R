@@ -115,8 +115,8 @@ widen <- function(x) {
 
 widen_clan <- function(x) {
   widen(x) |>
-    tidyr::unnest_longer(.data$participants) |>
-    tidyr::unnest_wider(.data$participants, names_sep = '_') |>
+    tidyr::unnest_longer('participants') |>
+    tidyr::unnest_wider('participants', names_sep = '_') |>
     clean_names() |>
     dplyr::rename_with(.fn = function(x) paste0('clan_', x))
 }

@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "tag": "#2JUCY982",
+            "type": "passwordProtected",
+            "status": "inProgress",
+            "creatorTag": "#8P08LQJPU",
+            "name": "torneo Clash",
+            "description": "poto",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 1,
+            "maxCapacity": 50,
+            "preparationDuration": 3600,
+            "duration": 7200,
+            "createdTime": "20221012T020935.000Z",
+            "gameMode": {
+                "id": 72000009
+            }
+        },
+        {
+            "tag": "#2JUVYJCY",
+            "type": "passwordProtected",
+            "status": "inPreparation",
+            "creatorTag": "#CJ29L2YY0",
+            "name": "desatre de clash",
+            "levelCap": 14,
+            "firstPlaceCardPrize": 0,
+            "capacity": 1,
+            "maxCapacity": 50,
+            "preparationDuration": 3600,
+            "duration": 1800,
+            "createdTime": "20221012T015908.000Z",
+            "gameMode": {
+                "id": 72000024
+            }
+        }
+    ],
+    "paging": {
+        "cursors": {
+
+        }
+    }
+}

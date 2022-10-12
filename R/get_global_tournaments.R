@@ -29,9 +29,9 @@ cr_get_global_tournaments <- function(limit = NULL, after = NULL, before = NULL,
 
   out <- lapply(resp$item, widen) |>
     dplyr::bind_rows() |>
-    tidyr::unnest_wider(.data$topRankReward, names_sep = '_') |>
+    tidyr::unnest_wider('topRankReward', names_sep = '_') |>
     dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
-    tidyr::unnest_wider(.data$topRankReward, names_sep = '_') |>
+    tidyr::unnest_wider('topRankReward', names_sep = '_') |>
     clean_names()
 
   out$milestone_rewards <- lapply(out$milestone_rewards,
