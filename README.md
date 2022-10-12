@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# royale
+# royale <img src="man/figures/logo.png" align="right" height="138" />
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -51,16 +51,16 @@ clan
 #> # A tibble: 50 × 28
 #>    tag       name  type  descr…¹ badge…² clan_…³ clan_…⁴ locat…⁵ locat…⁶ locat…⁷
 #>    <chr>     <chr> <chr> <chr>     <int>   <int>   <int>   <int> <chr>   <lgl>  
-#>  1 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
-#>  2 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
-#>  3 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
-#>  4 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
-#>  5 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
-#>  6 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
-#>  7 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
-#>  8 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
-#>  9 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
-#> 10 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57638    3550  5.70e7 Intern… FALSE  
+#>  1 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#>  2 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#>  3 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#>  4 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#>  5 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#>  6 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#>  7 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#>  8 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#>  9 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
+#> 10 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   57636    3550  5.70e7 Intern… FALSE  
 #> # … with 40 more rows, 18 more variables: required_trophies <int>,
 #> #   donations_per_week <int>, clan_chest_status <chr>, clan_chest_level <int>,
 #> #   clan_chest_max_level <int>, members <int>, player_tag <chr>,
