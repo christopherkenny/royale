@@ -21,4 +21,5 @@ Suggests:
     httptest2 (>= 0.1.0),
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: http://christophertkenny.com/royale/
+URL: http://christophertkenny.com/royale/, https://github.com/christopherkenny/royale
+BugReports: https://github.com/christopherkenny/royale/issues
