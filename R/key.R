@@ -6,7 +6,9 @@
 #' @param overwrite Defaults to FALSE. Boolean. Should existing `CR_API_KEY` in Renviron be overwritten?
 #' @param install Defaults to FALSE. Boolean. Should this be added '~/.Renviron' file?
 #'
-#' @return None
+#' @return key, invisibly
+#'
+#' @concept api
 #'
 #' @export
 #'
@@ -61,16 +63,18 @@ cr_set_key <- function(key, overwrite = FALSE, install = FALSE) {
   invisible(key)
 }
 
-#' Get RoyaleAPI key
+#' Get Clash Royale API key
 #'
-#' Retrieves RoyaleAPI key set by `cr_set_key()` if `cr_get_key()` or indicates if
+#' Retrieves Clash Royale API key set by `cr_set_key()` if `cr_get_key()` or indicates if
 #' one is set if `cr_has_key()`.
 #'
-#' @return string key
+#' @return string key, invisibly otherwise logical
 #'
 #' @name key
 #'
 #' @export
+#'
+#' @concept api
 #'
 #' @examples
 #' cr_has_key()
@@ -85,7 +89,7 @@ cr_get_key <- function() {
   # }
 
   # Return key -----------------------------------------------------------------
-  out
+  invisible(out)
 }
 
 #' @rdname key

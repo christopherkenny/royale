@@ -33,12 +33,19 @@ status_error <- function(s) {
 #' Does not verify that a player or clan has that tag.
 #'
 #' @noRd
-valid_tag <- function(tag, length) {
-  if (!(all(strsplit(tag) %in% c('0', '2', '8', '9', 'C', 'G', 'J', 'L', 'P', 'Q', 'R', 'U', 'V', 'Y')))) {
-    cli::cli_abort('This tag includes invalid characters.')
+check_valid_tag <- function(tag) {
+  # if (!(all(unlist(strsplit(tag, '')) %in% c('0', '2', '8', '9', 'C', 'G', 'J', 'L', 'P', 'Q', 'R', 'U', 'V', 'Y')))) {
+  #   cli::cli_abort('This tag includes invalid characters.')
+  # }
+  if (!is.character(tag)) {
+    cli::cli_abort('{.arg tag} must be a character.')
   }
 
-  tag
+  if (length(tag) !=  1) {
+    cli::cli_abort('{.arg tag} must be length 1.')
+  }
+
+  invisible(tag)
 }
 
 check_valid_clan <- function(clan) {
@@ -48,12 +55,14 @@ check_valid_clan <- function(clan) {
   if (substr(clan, 1, 1) == '#') {
     cli::cli_abort('{.arg clan} does not include "#"')
   }
+  invisible(clan)
 }
 
 check_valid_key <- function(key) {
   if (nchar(key) == 0) {
     cli::cli_abort('Please set API key with {.fn cr_set_key}.')
   }
+  invisible(key)
 }
 
 #' Gets the api url
@@ -68,7 +77,19 @@ req_base <- function() {
 }
 
 req_clan <- function(req, x) {
-  httr2::req_url_path_append(req, 'clans', paste0('%23', x))
+  httr2::req_url_path_append(req, 'clans', paste0('%23', stringr::str_remove(x, '#')))
+}
+
+req_player <- function(req, x) {
+  httr2::req_url_path_append(req, 'players', paste0('%23', stringr::str_remove(x, '#')))
+}
+
+req_tournament <- function(req, x) {
+  httr2::req_url_path_append(req, 'tournaments', paste0('%23', stringr::str_remove(x, '#')))
+}
+
+req_locations <- function(req, x) {
+  httr2::req_url_path_append(req, 'locations', x)
 }
 
 req_header <- function(req, key) {
@@ -95,7 +116,7 @@ widen <- function(x) {
 widen_clan <- function(x) {
   widen(x) |>
     tidyr::unnest_longer(.data$participants) |>
-    tidyr::unnest_wider(participants, names_sep = '_') |>
+    tidyr::unnest_wider(.data$participants, names_sep = '_') |>
     clean_names() |>
     dplyr::rename_with(.fn = function(x) paste0('clan_', x))
 }
@@ -106,4 +127,8 @@ clean_names <- function(x) {
     stringr::str_replace_all('([a-z])([A-Z])', '\\1_\\2') |>
     stringr::str_to_lower()
   stats::setNames(object = x, nm = out)
+}
+
+list_hoist <- function(l) {
+  dplyr::bind_rows(lapply(l, function(x) dplyr::bind_rows(unlist(x))))
 }

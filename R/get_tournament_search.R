@@ -1,10 +1,6 @@
-#' Search Clans
+#' Search Tournaments
 #'
 #' @param name Search clans by name
-#' @param location_id Filter by clan location identifier
-#' @param min_members Filter by minimum number of clan members
-#' @param max_members Filter by maximum number of clan members
-#' @param min_score Filter by minimum amount of clan score
 #' @templateVar limit TRUE
 #' @templateVar after TRUE
 #' @templateVar before TRUE
@@ -14,30 +10,25 @@
 #'
 #' @return a `tibble` with each row as a player
 #'
-#' @concept clan
+#' @concept tournament
 #'
 #' @export
 #'
 #' @examplesIf royale::cr_has_key()
-#' cr_get_clan_search('Legend Dynasty!')
-cr_get_clan_search <- function(name = NULL, location_id = NULL, min_members = NULL,
-                        max_members = NULL, min_score = NULL,
-                        limit = NULL, after = NULL, before = NULL,
-                        key = cr_get_key()) {
+#' cr_get_tournament_search('clash')
+cr_get_tournament_search <- function(name = NULL,
+                                     limit = NULL, after = NULL, before = NULL,
+                                     key = cr_get_key()) {
 
   # Check inputs ---
   check_valid_key(key)
 
   # Call to API ---
   resp <- req_base() |>
-    httr2::req_url_path_append('clans') |>
+    httr2::req_url_path_append('tournaments') |>
     req_header(key) |>
     httr2::req_url_query(
       'name' = name,
-      'locationId' = location_id,
-      'minMembers' = min_members,
-      'maxMembers' = max_members,
-      'minScore' = min_score,
       'limit' = limit,
       'after' = after,
       'before' = before

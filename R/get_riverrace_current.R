@@ -1,24 +1,23 @@
-#' Gets current River Race
+#' Get current River Race
 #'
 #' @param clan Required. Clan tag.
 #' Default: 99R2PQVR
-#' @param key Required. Clash Royale API key. See https://developer.clashroyale.com/#/documentation
+#' @param key Required. Clash Royale API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: cr_get_key
 #' @templateVar limit TRUE
 #' @templateVar after TRUE
 #' @templateVar before TRUE
 #' @template  template
 #'
-#' @return `tibble` with list columsn for clan, clans, and history.
+#' @return `tibble` with list columns for clan, clans, and history.
 #'
 #' @concept clan
 #'
 #' @export
 #'
 #' @examplesIf royale::cr_has_key()
-#'
-#' cr_get_current_riverrace('99R2PQVR')
-cr_get_current_riverrace <- function(clan = '99R2PQVR',
+#' cr_get_riverrace_current('99R2PQVR')
+cr_get_riverrace_current <- function(clan = '99R2PQVR',
                                      limit = NULL, after = NULL, before = NULL,
                                      key = cr_get_key()) {
 
@@ -50,10 +49,12 @@ cr_get_current_riverrace <- function(clan = '99R2PQVR',
 
   out$period_logs <- list(
     dplyr::bind_rows(resp$periodLogs) |>
-      tidyr::unnest_wider(col = items) |>
+      tidyr::unnest_wider(.data$items) |>
       tidyr::unnest_wider(.data$clan, names_sep = '_') |>
       clean_names()
   )
+
+  `attr<-`(out, 'paging', resp$paging)
 
   out
 }

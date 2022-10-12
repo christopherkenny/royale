@@ -7,7 +7,6 @@
 #'
 #' @concept api
 #'
-#'
 #' @return Returns available endpoints
 #'
 #' @noRd

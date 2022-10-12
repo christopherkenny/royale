@@ -14,7 +14,7 @@ cr_set_key(key, overwrite = FALSE, install = FALSE)
 \item{install}{Defaults to FALSE. Boolean. Should this be added '~/.Renviron' file?}
 }
 \value{
-None
+key, invisibly
 }
 \description{
 Sets your Clash Royale API key for default use.
@@ -25,3 +25,4 @@ cr_set_key('1234')
 }
 
 }
+\concept{api}

@@ -1,5 +1,7 @@
-#' Get card details
+# Doesn't currently return anything but the season id? 2022-10-11
+#' Get Global Seasons
 #'
+#' @param season Required. Season ID, such as '2022-09'
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: `cr_get_key()`
 #' @templateVar limit TRUE
@@ -9,29 +11,32 @@
 #'
 #' @return tibble of card info
 #'
-#' @concept cards
+#' @concept locations
 #'
 #' @export
 #' @md
 #' @examplesIf royale::cr_has_key()
-#' cr_get_cards()
-cr_get_cards <- function(limit = NULL, after = NULL, before = NULL, key = cr_get_key()) {
+#' cr_get_global_seasons()
+cr_get_global_seasons <- function(season,
+                                          limit = NULL, after = NULL, before = NULL,
+                                          key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
   check_valid_key(key)
 
   # Call to API ---
   resp <- req_base() |>
-    httr2::req_url_path_append('cards') |>
+    httr2::req_url_path_append('locations', 'global', 'seasons') |>
+    req_where(limit, after, before) |>
     req_header(key) |>
     httr2::req_perform() |>
     httr2::resp_body_json()
 
   out <- resp$items |>
     dplyr::bind_rows() |>
-    tidyr::unnest_wider(.data$iconUrls, names_sep = '_') |>
-    dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
     clean_names()
+
+  `attr<-`(out, 'paging', resp$paging)
 
   out
 }

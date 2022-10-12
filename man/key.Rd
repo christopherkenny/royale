@@ -4,19 +4,20 @@
 \alias{key}
 \alias{cr_get_key}
 \alias{cr_has_key}
-\title{Get RoyaleAPI key}
+\title{Get Clash Royale API key}
 \usage{
 cr_get_key()
 
 cr_has_key()
 }
 \value{
-string key
+string key, invisibly otherwise logical
 }
 \description{
-Retrieves RoyaleAPI key set by `cr_set_key()` if `cr_get_key()` or indicates if
+Retrieves Clash Royale API key set by `cr_set_key()` if `cr_get_key()` or indicates if
 one is set if `cr_has_key()`.
 }
 \examples{
 cr_has_key()
 }
+\concept{api}

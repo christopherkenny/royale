@@ -1,37 +1,34 @@
-#' Get card details
+#' Get One Location
 #'
+#' @param location Required. Location ID from `cr_get_locations()`.
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: `cr_get_key()`
-#' @templateVar limit TRUE
-#' @templateVar after TRUE
-#' @templateVar before TRUE
-#' @template  template
 #'
 #' @return tibble of card info
 #'
-#' @concept cards
+#' @concept locations
 #'
 #' @export
 #' @md
 #' @examplesIf royale::cr_has_key()
-#' cr_get_cards()
-cr_get_cards <- function(limit = NULL, after = NULL, before = NULL, key = cr_get_key()) {
+#' cr_get_location(57000001)
+cr_get_location <- function(location, key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
   check_valid_key(key)
 
   # Call to API ---
   resp <- req_base() |>
-    httr2::req_url_path_append('cards') |>
+    req_locations(location) |>
     req_header(key) |>
     httr2::req_perform() |>
     httr2::resp_body_json()
 
-  out <- resp$items |>
+  out <- resp |>
     dplyr::bind_rows() |>
-    tidyr::unnest_wider(.data$iconUrls, names_sep = '_') |>
-    dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
     clean_names()
+
+  `attr<-`(out, 'paging', resp$paging)
 
   out
 }

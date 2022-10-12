@@ -6,12 +6,14 @@ Description: R interface to the official API for Clash Royale <https://developer
 Authors@R: person("Christopher T.", "Kenny", email = "christopherkenny@fas.harvard.edu", 
     role = c("aut", "cre"), comment = c(ORCID = "0000-0002-9386-6860"))
 Imports:
-    httr,
     dplyr,
     stringr,
     httr2,
     tibble,
-    cli
+    cli,
+    tidyr,
+    purrr,
+    rlang
 Encoding: UTF-8
 RoxygenNote: 7.2.1
 License: MIT + file LICENSE

@@ -7,38 +7,60 @@
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: `cr_get_key()`
 #'
-#' @importFrom dplyr tibble
-#' @importFrom httr GET status_code
-#' @return Returns a player's info as a tibble
+#' @return tibble of player info
+#'
+#' @concept player
 #'
 #' @export
 #' @md
-#' @examples
-#' #TODO
+#' @examplesIf royale::cr_has_key()
+#' cr_get_player('JYJQC88')
 cr_get_player <- function(tag = 'JYJQC88', key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
-  if (stringr::str_length(tag) != 7) {
-    cli::cli_abort('`tag` must be 7 characters long.')
-  }
-  if (substr(tag, 1, 1) == '#') {
-    cli::cli_abort('`tag` does not include "#".')
-  }
+  check_valid_tag(tag)
   check_valid_key(key)
 
-  # Use inputs -----------------------------------------------------------------
-  url <- paste0(get_api_url(), 'players/%23', tag)
+  # Call to API ---
+  resp <- req_base() |>
+    req_player(tag) |>
+    req_header(key) |>
+    httr2::req_perform() |>
+    httr2::resp_body_json()
 
-  # Call to API ----------------------------------------------------------------
-  out <- httr::GET(url, config = add_headers(`Authorization: Bearer` = key))
+  out <- resp |>
+    widen() |>
+    tidyr::unnest_wider(.data$leagueStatistics, names_sep = '_') |>
+    tidyr::unnest_wider(dplyr::starts_with('leagueStatistics'), names_sep = '_') |>
+    tidyr::unnest_wider(.data$currentFavouriteCard, names_sep = '_') |>
+    clean_names()
 
-  # Check/Clean output ---------------------------------------------------------
-  if (status_code(out) != 200) {
-    cli::cli_abort(status_error(status_code(out)))
-  } else {
-    out <- httr::content(x = out, as = 'parsed')
-  }
+  out$badges <- list(
+    dplyr::bind_rows(out$badges) |>
+      clean_names()
+  )
 
-  # Return player --------------------------------------------------------------
+  out$achievements <- list(
+    dplyr::bind_rows(out$achievements) |>
+      clean_names()
+  )
+
+  out$cards <- list(
+    dplyr::bind_rows(out$cards) |>
+      clean_names()
+  )
+
+  out$current_deck <- list(
+    dplyr::bind_rows(out$current_deck) |>
+      clean_names()
+  )
+
+  out$cards <- list(
+    dplyr::bind_rows(out$cards) |>
+      clean_names()
+  )
+
+  `attr<-`(out, 'paging', resp$paging)
+
   out
 }
