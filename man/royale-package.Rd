@@ -14,6 +14,8 @@ R interface to the official API for Clash Royale \url{https://developer.clashroy
 Useful links:
 \itemize{
   \item \url{http://christophertkenny.com/royale/}
+  \item \url{https://github.com/christopherkenny/royale}
+  \item Report bugs at \url{https://github.com/christopherkenny/royale/issues}
 }
 
 }
