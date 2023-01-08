@@ -15,7 +15,7 @@ Imports:
     purrr (>= 0.3.4),
     rlang (>= 1.0.5)
 Encoding: UTF-8
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.2
 License: MIT + file LICENSE
 Suggests: 
     httptest2 (>= 0.1.0),
