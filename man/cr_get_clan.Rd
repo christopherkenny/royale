@@ -9,11 +9,11 @@ cr_get_clan(clan = "99R2PQVR", key = cr_get_key())
 \arguments{
 \item{clan}{Required. Clan tag. Default: 99R2PQVR}
 
-\item{key}{Required. API key. See <https://developer.clashroyale.com/#/documentation>
+\item{key}{Required. API key. See \url{https://developer.clashroyale.com/#/documentation}
 Default: cr_get_key}
 }
 \value{
-a `tibble` with each row as a player
+a \code{tibble} with each row as a player
 }
 \description{
 Gets full clan details

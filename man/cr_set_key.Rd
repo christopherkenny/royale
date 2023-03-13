@@ -7,9 +7,9 @@
 cr_set_key(key, overwrite = FALSE, install = FALSE)
 }
 \arguments{
-\item{key}{Required. Your Clash Royale API key. See <https://developer.clashroyale.com/#/getting-started>.}
+\item{key}{Required. Your Clash Royale API key. See \url{https://developer.clashroyale.com/#/getting-started}.}
 
-\item{overwrite}{Defaults to FALSE. Boolean. Should existing `CR_API_KEY` in Renviron be overwritten?}
+\item{overwrite}{Defaults to FALSE. Boolean. Should existing \code{CR_API_KEY} in Renviron be overwritten?}
 
 \item{install}{Defaults to FALSE. Boolean. Should this be added '~/.Renviron' file?}
 }

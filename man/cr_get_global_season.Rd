@@ -28,7 +28,7 @@ Default: \code{cr_get_key()}}
 tibble of card info
 }
 \description{
-This just returns the season if it's a valid season.
+This returns the current season if it's a valid season.
 }
 \examples{
 \dontshow{if (royale::cr_has_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}

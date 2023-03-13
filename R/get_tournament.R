@@ -3,7 +3,6 @@
 #' @param tournament Tournament tag. Required.
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: cr_get_key
-#' @template template
 #'
 #' @return a `tibble` with each row as a player
 #'

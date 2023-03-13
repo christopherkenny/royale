@@ -14,8 +14,8 @@ cr_has_key()
 string key, invisibly otherwise logical
 }
 \description{
-Retrieves Clash Royale API key set by `cr_set_key()` if `cr_get_key()` or indicates if
-one is set if `cr_has_key()`.
+Retrieves Clash Royale API key set by \code{cr_set_key()} if \code{cr_get_key()} or indicates if
+one is set if \code{cr_has_key()}.
 }
 \examples{
 cr_has_key()

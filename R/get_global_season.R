@@ -1,15 +1,13 @@
 #' Get Global Season
 #'
-#' This just returns the season if it's a valid season.
-#'
+#' This returns the current season if it's a valid season.
 #'
 #' @param season Required. Season ID, such as '2022-09'
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: `cr_get_key()`
-#' @templateVar limit TRUE
-#' @templateVar after TRUE
-#' @templateVar before TRUE
-#' @template  template
+#' @param limit `r template_var_limit()`
+#' @param after `r template_var_after()`
+#' @param before `r template_var_before()`
 #'
 #' @return tibble of card info
 #'

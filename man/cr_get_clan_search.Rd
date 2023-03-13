@@ -33,11 +33,11 @@ cr_get_clan_search(
 
 \item{before}{return only items that occur before this marker.}
 
-\item{key}{Required. API key. See <https://developer.clashroyale.com/#/documentation>
+\item{key}{Required. API key. See \url{https://developer.clashroyale.com/#/documentation}
 Default: cr_get_key}
 }
 \value{
-a `tibble` with each row as a player
+a \code{tibble} with each row as a player
 }
 \description{
 Search Clans

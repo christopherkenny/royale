@@ -3,10 +3,9 @@
 #' @param location Required. Location ID from `cr_get_locations()`.
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: `cr_get_key()`
-#' @templateVar limit TRUE
-#' @templateVar after TRUE
-#' @templateVar before TRUE
-#' @template  template
+#' @param limit `r template_var_limit()`
+#' @param after `r template_var_after()`
+#' @param before `r template_var_before()`
 #'
 #' @return tibble of card info
 #'

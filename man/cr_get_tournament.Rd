@@ -9,11 +9,11 @@ cr_get_tournament(tournament, key = cr_get_key())
 \arguments{
 \item{tournament}{Tournament tag. Required.}
 
-\item{key}{Required. API key. See <https://developer.clashroyale.com/#/documentation>
+\item{key}{Required. API key. See \url{https://developer.clashroyale.com/#/documentation}
 Default: cr_get_key}
 }
 \value{
-a `tibble` with each row as a player
+a \code{tibble} with each row as a player
 }
 \description{
 Get Tournament

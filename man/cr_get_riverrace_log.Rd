@@ -22,11 +22,11 @@ Default: 99R2PQVR}
 
 \item{before}{return only items that occur before this marker.}
 
-\item{key}{Required. Clash Royale API key. See <https://developer.clashroyale.com/#/documentation>
+\item{key}{Required. Clash Royale API key. See \url{https://developer.clashroyale.com/#/documentation}
 Default: cr_get_key}
 }
 \value{
-`tibble` with list columns for clan, clans, and history.
+\code{tibble} with list columns for clan, clans, and history.
 }
 \description{
 Get River Race Log

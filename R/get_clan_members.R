@@ -2,12 +2,11 @@
 #'
 #' @param clan Required. Clan tag.
 #' Default: 99R2PQVR
+#' @param limit `r template_var_limit()`
+#' @param after `r template_var_after()`
+#' @param before `r template_var_before()`
 #' @param key Required. Clash Royale API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: cr_get_key
-#' @templateVar limit TRUE
-#' @templateVar after TRUE
-#' @templateVar before TRUE
-#' @template  template
 #'
 #' @return `tibble` with list columns for clan, clans, and history.
 #'

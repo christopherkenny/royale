@@ -5,12 +5,11 @@
 #' @param min_members Filter by minimum number of clan members
 #' @param max_members Filter by maximum number of clan members
 #' @param min_score Filter by minimum amount of clan score
-#' @templateVar limit TRUE
-#' @templateVar after TRUE
-#' @templateVar before TRUE
+#' @param limit `r template_var_limit()`
+#' @param after `r template_var_after()`
+#' @param before `r template_var_before()`
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: cr_get_key
-#' @template template
 #'
 #' @return a `tibble` with each row as a player
 #'
