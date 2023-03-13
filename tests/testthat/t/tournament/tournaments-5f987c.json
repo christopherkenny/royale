@@ -1,249 +1,298 @@
 {
     "items": [
         {
-            "tag": "#2Y80JU8G",
+            "tag": "#2L0P2R9J",
             "type": "open",
-            "status": "inPreparation",
-            "creatorTag": "#2RGGC9PCP",
-            "name": "A TWISTED ☘️LUCK VS CLANS",
-            "description": "JOIN OUR FRIENDLY CLAN AND EARN REWARDS AND A CHANCE FOR A FREE PASS. WE ARE ACTIVE IN WAR.",
-            "levelCap": 14,
+            "status": "inProgress",
+            "creatorTag": "#VYC2JJVP",
+            "name": "a A1 123",
+            "levelCap": 11,
             "firstPlaceCardPrize": 0,
-            "capacity": 3,
+            "capacity": 36,
             "maxCapacity": 1000,
             "preparationDuration": 3600,
             "duration": 14400,
-            "createdTime": "20221012T023433.000Z",
-            "gameMode": {
-                "id": 72000009
-            }
-        },
-        {
-            "tag": "#2R80LYRY",
-            "type": "open",
-            "status": "inProgress",
-            "creatorTag": "#8RQY00PG9",
-            "name": "aña",
-            "levelCap": 14,
-            "firstPlaceCardPrize": 0,
-            "capacity": 11,
-            "maxCapacity": 50,
-            "preparationDuration": 3600,
-            "duration": 14400,
-            "createdTime": "20221012T012936.000Z",
-            "gameMode": {
-                "id": 72000009
-            }
-        },
-        {
-            "tag": "#2JV08PYG",
-            "type": "open",
-            "status": "inProgress",
-            "creatorTag": "#ULV9YQ29Q",
-            "name": "arepa con queso practica",
-            "description": "puro clan papu",
-            "levelCap": 11,
-            "firstPlaceCardPrize": 0,
-            "capacity": 15,
-            "maxCapacity": 100,
-            "preparationDuration": 3600,
-            "duration": 7200,
-            "createdTime": "20221012T015615.000Z",
-            "gameMode": {
-                "id": 72000005
-            }
-        },
-        {
-            "tag": "#2PVYYLCU",
-            "type": "open",
-            "status": "inProgress",
-            "creatorTag": "#9Q0UC2G",
-            "name": "angelplays",
-            "levelCap": 11,
-            "firstPlaceCardPrize": 0,
-            "capacity": 6,
-            "maxCapacity": 50,
-            "preparationDuration": 3600,
-            "duration": 1800,
-            "createdTime": "20221012T023954.000Z",
-            "gameMode": {
-                "id": 72000005
-            }
-        },
-        {
-            "tag": "#2LPGG0LL",
-            "type": "open",
-            "status": "inProgress",
-            "creatorTag": "#J92U82CRJ",
-            "name": "a a a free tournament",
-            "levelCap": 11,
-            "firstPlaceCardPrize": 0,
-            "capacity": 232,
-            "maxCapacity": 1000,
-            "preparationDuration": 3600,
-            "duration": 14400,
-            "createdTime": "20221012T004638.000Z",
+            "createdTime": "20230313T195155.000Z",
             "gameMode": {
                 "id": 72000013
             }
         },
         {
-            "tag": "#2PVPLL00",
-            "type": "passwordProtected",
-            "status": "inPreparation",
-            "creatorTag": "#QQRQJV8VR",
-            "name": "alucinezzz",
-            "levelCap": 11,
-            "firstPlaceCardPrize": 0,
-            "capacity": 3,
-            "maxCapacity": 10,
-            "preparationDuration": 3600,
-            "duration": 3600,
-            "createdTime": "20221012T024822.000Z",
-            "gameMode": {
-                "id": 72000194
-            }
-        },
-        {
-            "tag": "#2UVUGUC8",
-            "type": "passwordProtected",
-            "status": "inProgress",
-            "creatorTag": "#URVU80UJ9",
-            "name": "aser",
-            "description": "ganar",
-            "levelCap": 11,
-            "firstPlaceCardPrize": 0,
-            "capacity": 1,
-            "maxCapacity": 10,
-            "preparationDuration": 3600,
-            "duration": 1800,
-            "createdTime": "20221012T015100.000Z",
-            "gameMode": {
-                "id": 72000027
-            }
-        },
-        {
-            "tag": "#2R82LVYU",
+            "tag": "#2L029GVJ",
             "type": "open",
             "status": "inProgress",
-            "creatorTag": "#Y90PJCUYP",
-            "name": "anahsunamu",
-            "description": "momi",
+            "creatorTag": "#2CRJ9P2L",
+            "name": "aaa",
             "levelCap": 11,
             "firstPlaceCardPrize": 0,
-            "capacity": 15,
-            "maxCapacity": 50,
-            "preparationDuration": 3600,
-            "duration": 3600,
-            "createdTime": "20221012T012645.000Z",
-            "gameMode": {
-                "id": 72000194
-            }
-        },
-        {
-            "tag": "#2PV8JY0R",
-            "type": "open",
-            "status": "inProgress",
-            "creatorTag": "#2U28GJ8L",
-            "name": "a a a",
-            "description": "hi :)",
-            "levelCap": 11,
-            "firstPlaceCardPrize": 0,
-            "capacity": 279,
+            "capacity": 9,
             "maxCapacity": 1000,
             "preparationDuration": 3600,
             "duration": 14400,
-            "createdTime": "20221012T000110.000Z",
+            "createdTime": "20230313T173910.000Z",
             "gameMode": {
-                "id": 72000027
+                "id": 72000001
             }
         },
         {
-            "tag": "#2PV8YGL8",
+            "tag": "#2LGGVRLV",
             "type": "open",
-            "status": "inPreparation",
-            "creatorTag": "#CJ8PVYL0J",
-            "name": "alex",
-            "description": "una cuenta legendaria ",
-            "levelCap": 12,
-            "firstPlaceCardPrize": 0,
-            "capacity": 1,
-            "maxCapacity": 50,
-            "preparationDuration": 3600,
-            "duration": 1800,
-            "createdTime": "20221012T030919.000Z",
-            "gameMode": {
-                "id": 72000009
-            }
-        },
-        {
-            "tag": "#2PVYYP9P",
-            "type": "passwordProtected",
             "status": "inProgress",
-            "creatorTag": "#CJRQ0GY2L",
-            "name": "SO OS AMIGOS",
-            "description": "SEMPRE COM FE",
+            "creatorTag": "#9ULVY9JJ",
+            "name": "Saudi Army",
             "levelCap": 11,
             "firstPlaceCardPrize": 0,
-            "capacity": 3,
-            "maxCapacity": 10,
+            "capacity": 45,
+            "maxCapacity": 200,
             "preparationDuration": 3600,
-            "duration": 14400,
-            "createdTime": "20221011T233002.000Z",
+            "duration": 7200,
+            "createdTime": "20230313T174829.000Z",
             "gameMode": {
                 "id": 72000005
             }
         },
         {
-            "tag": "#2PVYLPGY",
+            "tag": "#2Y9Y9JRV",
             "type": "open",
-            "status": "inProgress",
-            "creatorTag": "#UURC899VU",
-            "name": "ASGARD",
+            "status": "inPreparation",
+            "creatorTag": "#229VJPCU",
+            "name": "abc",
             "levelCap": 11,
             "firstPlaceCardPrize": 0,
-            "capacity": 39,
-            "maxCapacity": 1000,
-            "preparationDuration": 3600,
-            "duration": 14400,
-            "createdTime": "20221012T023814.000Z",
-            "gameMode": {
-                "id": 72000194
-            }
-        },
-        {
-            "tag": "#2R80LPY2",
-            "type": "open",
-            "status": "inProgress",
-            "creatorTag": "#CJV8GV2RU",
-            "name": "ENTRA AI CLÃ",
-            "levelCap": 14,
-            "firstPlaceCardPrize": 0,
             "capacity": 1,
-            "maxCapacity": 50,
+            "maxCapacity": 10,
             "preparationDuration": 3600,
-            "duration": 14400,
-            "createdTime": "20221011T221519.000Z",
+            "duration": 1800,
+            "createdTime": "20230313T193527.000Z",
             "gameMode": {
                 "id": 72000009
             }
         },
         {
-            "tag": "#2PVYYVY9",
+            "tag": "#2L029UUG",
             "type": "open",
-            "status": "inProgress",
-            "creatorTag": "#PPRC80YYC",
-            "name": "aaaaa",
-            "description": "el pp",
+            "status": "inPreparation",
+            "creatorTag": "#U9VVYJRJV",
+            "name": "astek",
+            "description": "eylenmrk için oynayalım",
             "levelCap": 11,
             "firstPlaceCardPrize": 0,
-            "capacity": 4,
+            "capacity": 1,
+            "maxCapacity": 50,
+            "preparationDuration": 3600,
+            "duration": 10800,
+            "createdTime": "20230313T201850.000Z",
+            "gameMode": {
+                "id": 72000009
+            }
+        },
+        {
+            "tag": "#2C98R0UV",
+            "type": "open",
+            "status": "inProgress",
+            "creatorTag": "#9G8JYYUV",
+            "name": "a A - if u lose then u r g**",
+            "description": "j+j is a happy bundle of sticks",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 140,
             "maxCapacity": 1000,
             "preparationDuration": 3600,
             "duration": 14400,
-            "createdTime": "20221011T232545.000Z",
+            "createdTime": "20230313T183540.000Z",
             "gameMode": {
                 "id": 72000027
+            }
+        },
+        {
+            "tag": "#2Y9PCUL2",
+            "type": "open",
+            "status": "inProgress",
+            "creatorTag": "#8U8GRU9P8",
+            "name": "aaaaaa",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 11,
+            "maxCapacity": 1000,
+            "preparationDuration": 3600,
+            "duration": 14400,
+            "createdTime": "20230313T171043.000Z",
+            "gameMode": {
+                "id": 72000009
+            }
+        },
+        {
+            "tag": "#2L082YQG",
+            "type": "open",
+            "status": "inPreparation",
+            "creatorTag": "#U0RGVRRCV",
+            "name": "ali",
+            "description": "kiri",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 1,
+            "maxCapacity": 10,
+            "preparationDuration": 3600,
+            "duration": 1800,
+            "createdTime": "20230313T201222.000Z",
+            "gameMode": {
+                "id": 72000005
+            }
+        },
+        {
+            "tag": "#2Y9QQJRG",
+            "type": "open",
+            "status": "inProgress",
+            "creatorTag": "#89LR29V0Y",
+            "name": "aqwerty",
+            "levelCap": 12,
+            "firstPlaceCardPrize": 0,
+            "capacity": 35,
+            "maxCapacity": 1000,
+            "preparationDuration": 3600,
+            "duration": 14400,
+            "createdTime": "20230313T192026.000Z",
+            "gameMode": {
+                "id": 72000009
+            }
+        },
+        {
+            "tag": "#2L09GCV0",
+            "type": "open",
+            "status": "inPreparation",
+            "creatorTag": "#RVGG8RGC",
+            "name": "a b c free pass",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 7,
+            "maxCapacity": 1000,
+            "preparationDuration": 3600,
+            "duration": 14400,
+            "createdTime": "20230313T195505.000Z",
+            "gameMode": {
+                "id": 72000042
+            }
+        },
+        {
+            "tag": "#2GQGQ8RY",
+            "type": "open",
+            "status": "inProgress",
+            "creatorTag": "#CV99QUV8C",
+            "name": "clan leader again",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 20,
+            "maxCapacity": 50,
+            "preparationDuration": 3600,
+            "duration": 14400,
+            "createdTime": "20230313T162550.000Z",
+            "gameMode": {
+                "id": 72000194
+            }
+        },
+        {
+            "tag": "#2GQLUGGL",
+            "type": "open",
+            "status": "inProgress",
+            "creatorTag": "#GVJU8JU8Y",
+            "name": "AFG Challeng",
+            "description": "**** ***** *** *** ** *** ** **** ****",
+            "levelCap": 14,
+            "firstPlaceCardPrize": 0,
+            "capacity": 2,
+            "maxCapacity": 50,
+            "preparationDuration": 3600,
+            "duration": 14400,
+            "createdTime": "20230313T163208.000Z",
+            "gameMode": {
+                "id": 72000009
+            }
+        },
+        {
+            "tag": "#2GYJ28LV",
+            "type": "open",
+            "status": "inProgress",
+            "creatorTag": "#UVRVL0899",
+            "name": "Auswahlkampf",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 4,
+            "maxCapacity": 10,
+            "preparationDuration": 3600,
+            "duration": 14400,
+            "createdTime": "20230313T153337.000Z",
+            "gameMode": {
+                "id": 72000042
+            }
+        },
+        {
+            "tag": "#2Y9LY0UR",
+            "type": "open",
+            "status": "inPreparation",
+            "creatorTag": "#GL0VCCYQP",
+            "name": "abc practice tournament",
+            "description": "just for practice",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 10,
+            "maxCapacity": 1000,
+            "preparationDuration": 3600,
+            "duration": 14400,
+            "createdTime": "20230313T192804.000Z",
+            "gameMode": {
+                "id": 72000009
+            }
+        },
+        {
+            "tag": "#2Y9QQRY9",
+            "type": "open",
+            "status": "inProgress",
+            "creatorTag": "#LYG8JUYVL",
+            "name": "acz",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 4,
+            "maxCapacity": 10,
+            "preparationDuration": 3600,
+            "duration": 14400,
+            "createdTime": "20230313T164520.000Z",
+            "gameMode": {
+                "id": 72000005
+            }
+        },
+        {
+            "tag": "#2Y9LRQG9",
+            "type": "passwordProtected",
+            "status": "inPreparation",
+            "creatorTag": "#CVUG2G0UG",
+            "name": "anderson",
+            "description": "hwkzhykljjskgj tensos",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 1,
+            "maxCapacity": 1000,
+            "preparationDuration": 3600,
+            "duration": 1800,
+            "createdTime": "20230313T192327.000Z",
+            "gameMode": {
+                "id": 72000042
+            }
+        },
+        {
+            "tag": "#2Y9PU20R",
+            "type": "open",
+            "status": "inProgress",
+            "creatorTag": "#8VR9200L",
+            "name": "ayiyi",
+            "levelCap": 11,
+            "firstPlaceCardPrize": 0,
+            "capacity": 10,
+            "maxCapacity": 10,
+            "preparationDuration": 3600,
+            "duration": 14400,
+            "createdTime": "20230313T171213.000Z",
+            "gameMode": {
+                "id": 72000009
             }
         }
     ],

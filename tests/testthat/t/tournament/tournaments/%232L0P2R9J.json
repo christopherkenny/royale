@@ -1,0 +1,381 @@
+{
+    "tag": "#2L0P2R9J",
+    "type": "open",
+    "status": "inProgress",
+    "creatorTag": "#VYC2JJVP",
+    "name": "a A1 123",
+    "levelCap": 11,
+    "firstPlaceCardPrize": 0,
+    "capacity": 36,
+    "maxCapacity": 1000,
+    "preparationDuration": 3600,
+    "duration": 14400,
+    "createdTime": "20230313T195155.000Z",
+    "startedTime": "20230313T195159.000Z",
+    "membersList": [
+        {
+            "tag": "#9URJL8PG",
+            "name": "neto_ge",
+            "score": 4,
+            "rank": 1,
+            "clan": {
+                "tag": "#LUQPCYP",
+                "name": "BRASIL MAFU",
+                "badgeId": 16000058
+            }
+        },
+        {
+            "tag": "#8PU99U0V8",
+            "name": "☆SirLouisOchoa☆",
+            "score": 4,
+            "rank": 2
+        },
+        {
+            "tag": "#9VJC0R9CU",
+            "name": "Marklikeyouknow",
+            "score": 3,
+            "rank": 3,
+            "clan": {
+                "tag": "#L8YRUR9J",
+                "name": "Dreamville",
+                "badgeId": 16000066
+            }
+        },
+        {
+            "tag": "#280GR8JQ",
+            "name": "Seven",
+            "score": 3,
+            "rank": 4,
+            "clan": {
+                "tag": "#PJ9GU2",
+                "name": "GehrmansHunters",
+                "badgeId": 16000026
+            }
+        },
+        {
+            "tag": "#90LYPCQU8",
+            "name": "YoSoy Andy GT",
+            "score": 2,
+            "rank": 5,
+            "clan": {
+                "tag": "#YUP9GCUL",
+                "name": "Legion50 GT",
+                "badgeId": 16000134
+            }
+        },
+        {
+            "tag": "#2UGP0JYR0",
+            "name": "enrique",
+            "score": 2,
+            "rank": 6,
+            "clan": {
+                "tag": "#29QRQV2Q",
+                "name": "Delta Force",
+                "badgeId": 16000099
+            }
+        },
+        {
+            "tag": "#929UYGPL",
+            "name": "Belgir",
+            "score": 2,
+            "rank": 7,
+            "clan": {
+                "tag": "#Q0PRCPRJ",
+                "name": "ameddd",
+                "badgeId": 16000091
+            }
+        },
+        {
+            "tag": "#2Y2G9RVU0",
+            "name": "Gioo",
+            "score": 2,
+            "rank": 8,
+            "clan": {
+                "tag": "#LUGG0RUL",
+                "name": "CAICÓ RN",
+                "badgeId": 16000058
+            }
+        },
+        {
+            "tag": "#88Y0Q0JUV",
+            "name": "domy incognit",
+            "score": 2,
+            "rank": 9,
+            "clan": {
+                "tag": "#8PYGCRGR",
+                "name": "#NO Mercy",
+                "badgeId": 16000081
+            }
+        },
+        {
+            "tag": "#ULLV2C90J",
+            "name": "ariel",
+            "score": 1,
+            "rank": 10,
+            "clan": {
+                "tag": "#8QC2GLY2",
+                "name": "kings of war",
+                "badgeId": 16000168
+            }
+        },
+        {
+            "tag": "#LYGY08QQG",
+            "name": "ωเ\\ɓεɾƭ⚡",
+            "score": 1,
+            "rank": 11,
+            "clan": {
+                "tag": "#92L2JV2",
+                "name": "ClashChile",
+                "badgeId": 16000038
+            }
+        },
+        {
+            "tag": "#P8JVCP8J",
+            "name": "kings_never_die",
+            "score": 1,
+            "rank": 12,
+            "clan": {
+                "tag": "#Q228YPUG",
+                "name": "AHTGOOGLE",
+                "badgeId": 16000165
+            }
+        },
+        {
+            "tag": "#CGY9R0JJ",
+            "name": "The Nightmare",
+            "score": 1,
+            "rank": 13,
+            "clan": {
+                "tag": "#82PVVCVG",
+                "name": "NoPainNoGame",
+                "badgeId": 16000078
+            }
+        },
+        {
+            "tag": "#JJVGCPPP9",
+            "name": "renattoo",
+            "score": 1,
+            "rank": 14,
+            "clan": {
+                "tag": "#LJ8JRPCQ",
+                "name": "Clutch Clan",
+                "badgeId": 16000101
+            }
+        },
+        {
+            "tag": "#9LVCGP9JY",
+            "name": "ابو جعفر",
+            "score": 1,
+            "rank": 15,
+            "clan": {
+                "tag": "#2PUUY28",
+                "name": "Iraq lords",
+                "badgeId": 16000023
+            }
+        },
+        {
+            "tag": "#G0PGGR8UL",
+            "name": "Vinicius",
+            "score": 1,
+            "rank": 16,
+            "clan": {
+                "tag": "#LRJC0GPL",
+                "name": "CODE: ARTUBE",
+                "badgeId": 16000107
+            }
+        },
+        {
+            "tag": "#UCYJJCQVR",
+            "name": "Killer",
+            "score": 1,
+            "rank": 17
+        },
+        {
+            "tag": "#U0J99JQ2",
+            "name": "X U X I",
+            "score": 1,
+            "rank": 18
+        },
+        {
+            "tag": "#URQ8V2QP9",
+            "name": "SÁBIO TARADO",
+            "score": 1,
+            "rank": 19,
+            "clan": {
+                "tag": "#QYQJRRLP",
+                "name": "Fenda do Bikini",
+                "badgeId": 16000076
+            }
+        },
+        {
+            "tag": "#VYC2JJVP",
+            "name": "#TayfunÖzçelik`",
+            "score": 1,
+            "rank": 20,
+            "clan": {
+                "tag": "#2RLVCGL0",
+                "name": "Continental",
+                "badgeId": 16000015
+            }
+        },
+        {
+            "tag": "#PQ9CP2QQ",
+            "name": "Legendary24",
+            "score": 0,
+            "rank": 21,
+            "clan": {
+                "tag": "#Q02VU2J0",
+                "name": "Fear",
+                "badgeId": 16000031
+            }
+        },
+        {
+            "tag": "#UUCC0QPU9",
+            "name": "Aymam",
+            "score": 0,
+            "rank": 22,
+            "clan": {
+                "tag": "#Q9LJPQV8",
+                "name": "Premium tunisia",
+                "badgeId": 16000113
+            }
+        },
+        {
+            "tag": "#L9922P9VV",
+            "name": "CRIMINAL",
+            "score": 0,
+            "rank": 23,
+            "clan": {
+                "tag": "#Y0UQYRPP",
+                "name": "alliance 48",
+                "badgeId": 16000037
+            }
+        },
+        {
+            "tag": "#9JYRLQG0",
+            "name": "Bam",
+            "score": 0,
+            "rank": 24
+        },
+        {
+            "tag": "#2VCQPUQ",
+            "name": "Nixon",
+            "score": 0,
+            "rank": 25,
+            "clan": {
+                "tag": "#98GU2VC2",
+                "name": "Enani tv",
+                "badgeId": 16000020
+            }
+        },
+        {
+            "tag": "#PYQ9Y2LCC",
+            "name": "ced",
+            "score": 0,
+            "rank": 26,
+            "clan": {
+                "tag": "#LQRL889",
+                "name": "LES ACTIFS",
+                "badgeId": 16000154
+            }
+        },
+        {
+            "tag": "#9Q9JVGP0",
+            "name": "BAGUiRA",
+            "score": 0,
+            "rank": 27,
+            "clan": {
+                "tag": "#LLY9VL2G",
+                "name": "ARG UNION",
+                "badgeId": 16000077
+            }
+        },
+        {
+            "tag": "#VPVLQ2C80",
+            "name": "محمدامین",
+            "score": 0,
+            "rank": 28,
+            "clan": {
+                "tag": "#QQGJU0CY",
+                "name": "مشهد",
+                "badgeId": 16000176
+            }
+        },
+        {
+            "tag": "#8LRY0QUP2",
+            "name": "riclash",
+            "score": 0,
+            "rank": 29,
+            "clan": {
+                "tag": "#22VJ9CP",
+                "name": "122W",
+                "badgeId": 16000128
+            }
+        },
+        {
+            "tag": "#Q9C0G99R",
+            "name": "Moras",
+            "score": 0,
+            "rank": 30
+        },
+        {
+            "tag": "#PR2P0CJPP",
+            "name": "charl2",
+            "score": 0,
+            "rank": 31
+        },
+        {
+            "tag": "#99LJQC28G",
+            "name": "pedro",
+            "score": 0,
+            "rank": 32,
+            "clan": {
+                "tag": "#8Y8RGGJL",
+                "name": "sol naciente",
+                "badgeId": 16000122
+            }
+        },
+        {
+            "tag": "#Q28U0QR9",
+            "name": "Waleed",
+            "score": 0,
+            "rank": 33,
+            "clan": {
+                "tag": "#LUQLC82V",
+                "name": "khairy&hamza",
+                "badgeId": 16000162
+            }
+        },
+        {
+            "tag": "#JRLVQ8CQY",
+            "name": "yiyi",
+            "score": 0,
+            "rank": 34
+        },
+        {
+            "tag": "#V0229L0RQ",
+            "name": "ياسمين سوسو",
+            "score": 0,
+            "rank": 35,
+            "clan": {
+                "tag": "#2LRLYYQ8",
+                "name": "العاوور",
+                "badgeId": 16000009
+            }
+        },
+        {
+            "tag": "#2QGR29UPR",
+            "name": "King Didigo",
+            "score": 0,
+            "rank": 36,
+            "clan": {
+                "tag": "#8U09Q9CV",
+                "name": "LENDÁRIOS Z",
+                "badgeId": 16000025
+            }
+        }
+    ],
+    "gameMode": {
+        "id": 72000013
+    }
+}

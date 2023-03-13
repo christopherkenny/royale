@@ -1,19 +1,19 @@
 [
     {
         "type": "singleChallenge",
-        "startTime": "20221010T080000.000Z",
-        "endTime": "19700120T064633.600Z",
+        "startTime": "20230313T090000.000Z",
+        "endTime": "19700120T102822.800Z",
         "challenges": [
             {
-                "id": 73006270,
-                "name": "Mega Deck Challenge",
-                "description": "Build a Mega Deck with 18 cards from your collection. 3 losses and you're out, but you will have a chance to reset your losses and keep your progress.",
+                "id": 73006733,
+                "name": "Goblin Party Hut Challenge",
+                "description": "Play with the new Goblin Party Hut! A Dart Goblin on top will attack your opponent and when destroyed the partygoers will go looking for trouble!",
                 "winMode": "win",
-                "casual": false,
-                "maxLosses": 3,
+                "casual": true,
+                "maxLosses": 0,
                 "gameMode": {
-                    "id": 72000119,
-                    "name": "DoubleDeck_Tournament"
+                    "id": 72000342,
+                    "name": "Event_GoblinPartyHut"
                 },
                 "prizes": [
                     {
@@ -26,8 +26,8 @@
                     },
                     {
                         "type": "consumable",
-                        "amount": 80,
-                        "consumableName": "CosmeticsToken"
+                        "amount": 1,
+                        "consumableName": "BoostSingleCard"
                     },
                     {
                         "type": "resource",
@@ -47,173 +47,94 @@
                     {
                         "type": "tradeToken",
                         "amount": 1,
-                        "rarity": "common"
+                        "rarity": "legendary"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": null
+                    }
+                ],
+                "maxWins": 8,
+                "iconUrl": "https://event-assets.clashroyale.com/a07d097a-7b92-45d2-922a-caa648312efa_PartyHutChallenge_Banner.png.png"
+            }
+        ]
+    },
+    {
+        "type": "singleChallenge",
+        "startTime": "20230320T090000.000Z",
+        "endTime": "19700120T103827.600Z",
+        "challenges": [
+            {
+                "id": 73006734,
+                "name": "Heist Draft Challenge",
+                "description": "Pick 4 cards and receive 4 from your opponent. Smash your opponent's safe to win!",
+                "winMode": "win",
+                "casual": false,
+                "maxLosses": 3,
+                "gameMode": {
+                    "id": 72000092,
+                    "name": "Heist_Draft"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 4000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 1,
+                        "consumableName": "BoostSingleCard"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 3000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "consumable",
+                        "amount": 1,
+                        "consumableName": "ChestKey"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 2000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "tradeToken",
+                        "amount": 1,
+                        "rarity": "legendary"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
                     },
                     {
                         "type": "chest",
                         "chest": "Gold"
                     }
                 ],
-                "maxWins": 7,
-                "iconUrl": "https://event-assets.clashroyale.com/47e56b22-6dab-49dc-b25e-ecafddd46c13_2022MegaDeck.png"
+                "maxWins": 8,
+                "iconUrl": "https://event-assets.clashroyale.com/9260d103-2bd8-4963-ab4c-26f125fb4032_HeistDraftChallenge_Banner.png"
             }
         ]
     },
     {
         "type": "singleChallenge",
-        "startTime": "20221003T080000.000Z",
-        "endTime": "19700120T063628.800Z",
+        "startTime": "20230306T090000.000Z",
+        "endTime": "19700120T101818.000Z",
         "challenges": [
             {
-                "id": 73006272,
-                "name": "Nightmare Bats Challenge",
-                "description": "Nightmare Bats spawn on both sides of the arena! They're hidden from troops, so rely on spells to keep them under control. 3 losses and you’re out, but you still have a chance to reset your losses and continue to play.",
-                "winMode": "win",
-                "casual": false,
-                "maxLosses": 3,
-                "gameMode": {
-                    "id": 72000322,
-                    "name": "YetAnotherBat_Tournament"
-                },
-                "prizes": [
-                    {
-                        "type": "none"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 4000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": "consumable",
-                        "amount": 80,
-                        "consumableName": "CosmeticsToken"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 2000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": "tradeToken",
-                        "amount": 1,
-                        "rarity": "common"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 2000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": "consumable",
-                        "amount": 1,
-                        "consumableName": "ChestKey"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 1000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": "tradeToken",
-                        "amount": 1,
-                        "rarity": "rare"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 1000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": null
-                    }
-                ],
-                "maxWins": 10,
-                "iconUrl": "https://event-assets.clashroyale.com/d8bbcca4-deb6-4739-a4a3-06689dffc1e7_Nightmare_bat_banner.png"
-            }
-        ]
-    },
-    {
-        "type": "singleChallenge",
-        "startTime": "20221017T080000.000Z",
-        "endTime": "19700120T065931.200Z",
-        "challenges": [
-            {
-                "id": 73006274,
-                "name": "Which Witch? Draft Challenge",
-                "description": "Pick 4 cards and receive 4 from your opponent; one of you will play with Witch, the other will play with Night Witch. Collect rewards with no losses!",
-                "winMode": "win",
-                "casual": true,
-                "maxLosses": 0,
-                "gameMode": {
-                    "id": 72000005,
-                    "name": "DraftMode"
-                },
-                "prizes": [
-                    {
-                        "type": "none"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 4000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": "consumable",
-                        "amount": 80,
-                        "consumableName": "CosmeticsToken"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 2000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": "consumable",
-                        "amount": 1,
-                        "consumableName": "ChestKey"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 2000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": "tradeToken",
-                        "amount": 1,
-                        "rarity": "epic"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 1000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": "consumable",
-                        "amount": 50,
-                        "consumableName": "CosmeticsToken"
-                    },
-                    {
-                        "type": "resource",
-                        "amount": 1000,
-                        "resource": "gold"
-                    },
-                    {
-                        "type": null
-                    }
-                ],
-                "maxWins": 10,
-                "iconUrl": "https://event-assets.clashroyale.com/c72c3a58-436a-4d3b-8ffd-e331cf4f111d_which_witch_banner.png"
-            }
-        ]
-    },
-    {
-        "type": "singleChallenge",
-        "startTime": "20221003T080000.000Z",
-        "endTime": "19700120T063628.800Z",
-        "challenges": [
-            {
-                "id": 73006276,
+                "id": 73006735,
                 "name": "Draft Challenge",
                 "description": "Pick 4 cards and receive 4 from your opponent. 3 losses and you’re out, but you will have a chance to reset your losses and keep your progress.",
                 "winMode": "win",
@@ -265,11 +186,11 @@
     },
     {
         "type": "singleChallenge",
-        "startTime": "20221010T080000.000Z",
-        "endTime": "19700120T064633.600Z",
+        "startTime": "20230313T090000.000Z",
+        "endTime": "19700120T102822.800Z",
         "challenges": [
             {
-                "id": 73006277,
+                "id": 73006736,
                 "name": "Sudden Death Challenge",
                 "description": "The match starts in Sudden Death - whoever takes the first tower wins! 3 losses and you’re out, but you still have a chance to reset your losses and continue to play.",
                 "winMode": "win",
@@ -321,11 +242,11 @@
     },
     {
         "type": "singleChallenge",
-        "startTime": "20221017T080000.000Z",
-        "endTime": "19700120T065638.400Z",
+        "startTime": "20230320T090000.000Z",
+        "endTime": "19700120T103827.600Z",
         "challenges": [
             {
-                "id": 73006278,
+                "id": 73006737,
                 "name": "Ramp Up Challenge",
                 "description": "Ramp Up Challenge becomes more and more hectic throughout each battle... 1x, 2x and eventually 3x Elixir! 3 losses and you’re out, but you will have a chance to reset your losses and continue to play to the final reward!",
                 "winMode": "win",
@@ -372,11 +293,11 @@
     },
     {
         "type": "singleChallenge",
-        "startTime": "20221012T080000.000Z",
-        "endTime": "19700120T064633.600Z",
+        "startTime": "20230311T090000.000Z",
+        "endTime": "19700120T102237.200Z",
         "challenges": [
             {
-                "id": 73006285,
+                "id": 73006738,
                 "name": "Royal Tournament",
                 "description": "Bring your best deck into battle! Win as many battles as you can to earn rewards! Make it to the top 100 to earn an Exclusive Emote + 100000 bonus gold!",
                 "winMode": "win",
@@ -464,6 +385,150 @@
                 ],
                 "maxWins": 15,
                 "iconUrl": "https://event-assets.clashroyale.com/c16fb977-1320-46db-8240-8de515ac0683_S17_global_tournament.png"
+            }
+        ]
+    },
+    {
+        "type": "challengeChain",
+        "title": "Goblin Outbreak!",
+        "startTime": "20230306T090000.000Z",
+        "endTime": "19700120T101818.000Z",
+        "challenges": [
+            {
+                "id": 73006803,
+                "name": "Goblin Outbreak - Part 1",
+                "description": "Goblins keep finding their way into the Arena! Build a deck around an increasing number of Goblin cards as you progress through the Challenge!",
+                "winMode": "win",
+                "casual": true,
+                "maxLosses": 0,
+                "gameMode": {
+                    "id": 72000338,
+                    "name": "GoblinOutbreak_1"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 1000,
+                        "resource": "gold"
+                    }
+                ],
+                "maxWins": 3,
+                "iconUrl": "https://event-assets.clashroyale.com/c8316add-bd63-4c74-99ce-7954d07e58b5_GoblinOutbreak_chain_complete_1.png.png"
+            },
+            {
+                "id": 73006804,
+                "name": "Goblin Outbreak - Part 2",
+                "description": "Goblins keep finding their way into the Arena! Build a deck around an increasing number of Goblin cards as you progress through the Challenge!",
+                "winMode": "win",
+                "casual": true,
+                "maxLosses": 0,
+                "gameMode": {
+                    "id": 72000339,
+                    "name": "GoblinOutbreak_2"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 2000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 2000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 2000,
+                        "resource": "gold"
+                    }
+                ],
+                "maxWins": 3,
+                "iconUrl": "https://event-assets.clashroyale.com/824492bb-458a-43c4-a639-fe208d7a104c_GoblinOutbreak_chain_complete_2.png.png"
+            },
+            {
+                "id": 73006805,
+                "name": "Goblin Outbreak - Part 3",
+                "description": "Goblins keep finding their way into the Arena! Build a deck around an increasing number of Goblin cards as you progress through the Challenge!",
+                "winMode": "win",
+                "casual": false,
+                "maxLosses": 3,
+                "gameMode": {
+                    "id": 72000340,
+                    "name": "GoblinOutbreak_3"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 3000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 3000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 3000,
+                        "resource": "gold"
+                    }
+                ],
+                "maxWins": 3,
+                "iconUrl": "https://event-assets.clashroyale.com/ea68437d-60ba-4723-bed6-77b77899d67d_MM_chain_complete_3.png"
+            },
+            {
+                "id": 73006806,
+                "name": "Goblin Outbreak - Part 4",
+                "description": "Goblins keep finding their way into the Arena! Build a deck around an increasing number of Goblin cards as you progress through the Challenge!",
+                "winMode": "win",
+                "casual": false,
+                "maxLosses": 3,
+                "gameMode": {
+                    "id": 72000341,
+                    "name": "GoblinOutbreak_4"
+                },
+                "prizes": [
+                    {
+                        "type": "none"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 4000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 4000,
+                        "resource": "gold"
+                    },
+                    {
+                        "type": "resource",
+                        "amount": 4000,
+                        "resource": "gold"
+                    }
+                ],
+                "maxWins": 3,
+                "iconUrl": "https://event-assets.clashroyale.com/edc96887-1eda-4388-950a-40f7ec7264db_MM_chain_complete_4.png"
             }
         ]
     }

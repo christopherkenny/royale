@@ -1,8 +1,8 @@
 {
     "items": [
         {
-            "tag": "#QC8R0888",
-            "name": "Fierce Force",
+            "tag": "#29J8L",
+            "name": "NORTH 44",
             "rank": 1,
             "previousRank": 1,
             "location": {
@@ -11,59 +11,44 @@
                 "isCountry": true,
                 "countryCode": "US"
             },
-            "clanScore": 66260,
-            "members": 46,
-            "badgeId": 16000002
-        },
-        {
-            "tag": "#PLP2L9G2",
-            "name": "RaZe eSports",
-            "rank": 2,
-            "previousRank": 3,
-            "location": {
-                "id": 57000249,
-                "name": "United States",
-                "isCountry": true,
-                "countryCode": "US"
-            },
-            "clanScore": 65872,
+            "clanScore": 75000,
             "members": 50,
-            "badgeId": 16000077
+            "badgeId": 16000067
         },
         {
-            "tag": "#LQJ9JJRL",
-            "name": "#FC Esports",
+            "tag": "#YL89C2RL",
+            "name": "WHC Academy",
+            "rank": 2,
+            "previousRank": 15,
+            "location": {
+                "id": 57000249,
+                "name": "United States",
+                "isCountry": true,
+                "countryCode": "US"
+            },
+            "clanScore": 75000,
+            "members": 50,
+            "badgeId": 16000171
+        },
+        {
+            "tag": "#8G2YPC",
+            "name": "Royale Reckers",
             "rank": 3,
-            "previousRank": 2,
+            "previousRank": 18,
             "location": {
                 "id": 57000249,
                 "name": "United States",
                 "isCountry": true,
                 "countryCode": "US"
             },
-            "clanScore": 65714,
-            "members": 46,
-            "badgeId": 16000124
+            "clanScore": 74994,
+            "members": 50,
+            "badgeId": 16000145
         },
         {
-            "tag": "#PV2G9U2L",
-            "name": "darkzero",
+            "tag": "#Q2C00GJY",
+            "name": "Elixir Cult",
             "rank": 4,
-            "previousRank": 4,
-            "location": {
-                "id": 57000249,
-                "name": "United States",
-                "isCountry": true,
-                "countryCode": "US"
-            },
-            "clanScore": 65162,
-            "members": 49,
-            "badgeId": 16000108
-        },
-        {
-            "tag": "#9VQJPL2L",
-            "name": "AK Syndicate 2",
-            "rank": 5,
             "previousRank": 9,
             "location": {
                 "id": 57000249,
@@ -71,29 +56,14 @@
                 "isCountry": true,
                 "countryCode": "US"
             },
-            "clanScore": 64359,
+            "clanScore": 74994,
             "members": 50,
-            "badgeId": 16000044
+            "badgeId": 16000107
         },
         {
-            "tag": "#LJGJLCPG",
-            "name": "Relentless™️",
-            "rank": 6,
-            "previousRank": 5,
-            "location": {
-                "id": 57000249,
-                "name": "United States",
-                "isCountry": true,
-                "countryCode": "US"
-            },
-            "clanScore": 64231,
-            "members": 49,
-            "badgeId": 16000096
-        },
-        {
-            "tag": "#QYG0Y9RQ",
-            "name": "One Life",
-            "rank": 7,
+            "tag": "#C8UJ22",
+            "name": "42O Royale",
+            "rank": 5,
             "previousRank": 6,
             "location": {
                 "id": 57000249,
@@ -101,14 +71,59 @@
                 "isCountry": true,
                 "countryCode": "US"
             },
-            "clanScore": 64177,
+            "clanScore": 74977,
             "members": 50,
-            "badgeId": 16000024
+            "badgeId": 16000035
         },
         {
-            "tag": "#QLC9RCQC",
-            "name": "Miso Tilted™️",
+            "tag": "#8L0CRRL",
+            "name": "Jesus is Risen",
+            "rank": 6,
+            "previousRank": 3,
+            "location": {
+                "id": 57000249,
+                "name": "United States",
+                "isCountry": true,
+                "countryCode": "US"
+            },
+            "clanScore": 74881,
+            "members": 50,
+            "badgeId": 16000063
+        },
+        {
+            "tag": "#9CPV098R",
+            "name": "Titan Warfare",
+            "rank": 7,
+            "previousRank": 4,
+            "location": {
+                "id": 57000249,
+                "name": "United States",
+                "isCountry": true,
+                "countryCode": "US"
+            },
+            "clanScore": 74775,
+            "members": 49,
+            "badgeId": 16000156
+        },
+        {
+            "tag": "#LU8CVJU9",
+            "name": "R O L L C A L L",
             "rank": 8,
+            "previousRank": 23,
+            "location": {
+                "id": 57000249,
+                "name": "United States",
+                "isCountry": true,
+                "countryCode": "US"
+            },
+            "clanScore": 74766,
+            "members": 50,
+            "badgeId": 16000139
+        },
+        {
+            "tag": "#8R89PCJJ",
+            "name": "Fiji eSports",
+            "rank": 9,
             "previousRank": 8,
             "location": {
                 "id": 57000249,
@@ -116,24 +131,9 @@
                 "isCountry": true,
                 "countryCode": "US"
             },
-            "clanScore": 64147,
+            "clanScore": 74747,
             "members": 50,
-            "badgeId": 16000054
-        },
-        {
-            "tag": "#QR02R22R",
-            "name": "Outlaws™️",
-            "rank": 9,
-            "previousRank": 7,
-            "location": {
-                "id": 57000249,
-                "name": "United States",
-                "isCountry": true,
-                "countryCode": "US"
-            },
-            "clanScore": 63974,
-            "members": 49,
-            "badgeId": 16000015
+            "badgeId": 16000096
         },
         {
             "tag": "#8G9LVPVV",
@@ -146,7 +146,7 @@
                 "isCountry": true,
                 "countryCode": "US"
             },
-            "clanScore": 63507,
+            "clanScore": 74650,
             "members": 50,
             "badgeId": 16000136
         }

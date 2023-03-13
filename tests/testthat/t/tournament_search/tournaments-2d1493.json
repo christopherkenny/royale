@@ -1,38 +1,21 @@
 {
     "items": [
         {
-            "tag": "#2JUCY982",
-            "type": "passwordProtected",
-            "status": "inProgress",
-            "creatorTag": "#8P08LQJPU",
-            "name": "torneo Clash",
-            "description": "poto",
+            "tag": "#2L0P2QVL",
+            "type": "open",
+            "status": "inPreparation",
+            "creatorTag": "#92RGCQ9YL",
+            "name": "Clash 1000 triple ❤️",
+            "description": "por diversión 🍃",
             "levelCap": 11,
             "firstPlaceCardPrize": 0,
-            "capacity": 1,
-            "maxCapacity": 50,
+            "capacity": 4,
+            "maxCapacity": 1000,
             "preparationDuration": 3600,
-            "duration": 7200,
-            "createdTime": "20221012T020935.000Z",
+            "duration": 14400,
+            "createdTime": "20230313T195129.000Z",
             "gameMode": {
-                "id": 72000009
-            }
-        },
-        {
-            "tag": "#2JUVYJCY",
-            "type": "passwordProtected",
-            "status": "inPreparation",
-            "creatorTag": "#CJ29L2YY0",
-            "name": "desatre de clash",
-            "levelCap": 14,
-            "firstPlaceCardPrize": 0,
-            "capacity": 1,
-            "maxCapacity": 50,
-            "preparationDuration": 3600,
-            "duration": 1800,
-            "createdTime": "20221012T015908.000Z",
-            "gameMode": {
-                "id": 72000024
+                "id": 72000194
             }
         }
     ],

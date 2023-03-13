@@ -2,19 +2,19 @@
     "items": [
         {
             "index": 0,
-            "name": "Silver Chest"
+            "name": "Giant Chest"
         },
         {
             "index": 1,
-            "name": "Magical Chest"
+            "name": "Golden Chest"
         },
         {
             "index": 2,
-            "name": "Silver Chest"
+            "name": "Gold Crate"
         },
         {
             "index": 3,
-            "name": "Silver Chest"
+            "name": "Golden Chest"
         },
         {
             "index": 4,
@@ -22,34 +22,42 @@
         },
         {
             "index": 5,
-            "name": "Gold Crate"
-        },
-        {
-            "index": 6,
-            "name": "Silver Chest"
-        },
-        {
-            "index": 7,
             "name": "Golden Chest"
         },
         {
+            "index": 6,
+            "name": "Gold Crate"
+        },
+        {
+            "index": 7,
+            "name": "Gold Crate"
+        },
+        {
             "index": 8,
-            "name": "Silver Chest"
+            "name": "Golden Chest"
         },
         {
-            "index": 21,
-            "name": "Giant Chest"
+            "index": 13,
+            "name": "Magical Chest"
         },
         {
-            "index": 57,
+            "index": 40,
+            "name": "Overflowing Gold Crate"
+        },
+        {
+            "index": 66,
+            "name": "Royal Wild Chest"
+        },
+        {
+            "index": 425,
             "name": "Epic Chest"
         },
         {
-            "index": 159,
+            "index": 547,
             "name": "Legendary Chest"
         },
         {
-            "index": 862,
+            "index": 563,
             "name": "Mega Lightning Chest"
         }
     ]

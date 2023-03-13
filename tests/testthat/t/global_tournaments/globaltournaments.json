@@ -195,7 +195,7 @@
                 "id": 72000010
             },
             "maxLosses": 4,
-            "minExpLevel": 9,
+            "minExpLevel": 22,
             "tournamentLevel": 10
         },
         {
@@ -393,7 +393,7 @@
                 "id": 72000010
             },
             "maxLosses": 4,
-            "minExpLevel": 10,
+            "minExpLevel": 26,
             "tournamentLevel": 11
         },
         {
@@ -595,7 +595,7 @@
                 "id": 72000010
             },
             "maxLosses": 4,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -714,7 +714,7 @@
                 "id": 72000001
             },
             "maxLosses": 4,
-            "minExpLevel": 9,
+            "minExpLevel": 22,
             "tournamentLevel": 10
         },
         {
@@ -908,7 +908,7 @@
                 "id": 72000010
             },
             "maxLosses": 4,
-            "minExpLevel": 10,
+            "minExpLevel": 26,
             "tournamentLevel": 11
         },
         {
@@ -1106,7 +1106,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -1235,7 +1235,7 @@
                 "id": 72000024
             },
             "maxLosses": 5,
-            "minExpLevel": 10,
+            "minExpLevel": 26,
             "tournamentLevel": 11
         },
         {
@@ -1379,7 +1379,7 @@
                 "id": 72000001
             },
             "maxLosses": 4,
-            "minExpLevel": 9,
+            "minExpLevel": 22,
             "tournamentLevel": 10
         },
         {
@@ -1526,7 +1526,7 @@
                 "id": 72000101
             },
             "maxLosses": 5,
-            "minExpLevel": 9,
+            "minExpLevel": 22,
             "tournamentLevel": 10
         },
         {
@@ -1678,7 +1678,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -1820,7 +1820,7 @@
                 "id": 72000101
             },
             "maxLosses": 5,
-            "minExpLevel": 9,
+            "minExpLevel": 22,
             "tournamentLevel": 10
         },
         {
@@ -1979,7 +1979,7 @@
                 "id": 72000024
             },
             "maxLosses": 5,
-            "minExpLevel": 10,
+            "minExpLevel": 26,
             "tournamentLevel": 11
         },
         {
@@ -2121,7 +2121,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -2257,7 +2257,7 @@
                 "id": 72000001
             },
             "maxLosses": 5,
-            "minExpLevel": 9,
+            "minExpLevel": 22,
             "tournamentLevel": 10
         },
         {
@@ -2410,7 +2410,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -2560,7 +2560,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -2712,7 +2712,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -2865,7 +2865,7 @@
                 "id": 72000005
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -3023,7 +3023,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -3175,7 +3175,7 @@
                 "id": 72000101
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -3324,7 +3324,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -3477,7 +3477,7 @@
                 "id": 72000005
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -3626,7 +3626,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -3782,7 +3782,7 @@
                 "id": 72000024
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -3931,7 +3931,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -4075,7 +4075,7 @@
                 "id": 72000001
             },
             "maxLosses": 5,
-            "minExpLevel": 9,
+            "minExpLevel": 22,
             "tournamentLevel": 10
         },
         {
@@ -4224,7 +4224,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -4368,7 +4368,7 @@
                 "id": 72000102
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -4518,7 +4518,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -4659,7 +4659,7 @@
                 "id": 72000024
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -4804,7 +4804,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -4961,7 +4961,7 @@
                 "id": 72000005
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -5120,7 +5120,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -5288,7 +5288,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -5451,7 +5451,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -5615,7 +5615,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -5778,7 +5778,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -5967,7 +5967,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -6142,7 +6142,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -6298,7 +6298,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -6454,7 +6454,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -6610,7 +6610,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -6766,7 +6766,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -6928,7 +6928,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -7084,7 +7084,7 @@
                 "id": 72000027
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -7240,7 +7240,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -7396,7 +7396,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -7552,7 +7552,7 @@
                 "id": 72000194
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -7708,7 +7708,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -7864,7 +7864,7 @@
                 "id": 72000001
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -8038,7 +8038,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -8212,7 +8212,7 @@
                 "id": 72000024
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -8386,7 +8386,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -8560,7 +8560,7 @@
                 "id": 72000086
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -8734,7 +8734,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -8908,7 +8908,7 @@
                 "id": 72000005
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -9082,7 +9082,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -9256,7 +9256,7 @@
                 "id": 72000027
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -9430,7 +9430,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -9604,7 +9604,7 @@
                 "id": 72000194
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -9778,7 +9778,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -9952,7 +9952,7 @@
                 "id": 72000001
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -10126,7 +10126,7 @@
                 "id": 72000010
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -10301,7 +10301,7 @@
                 "id": 72000027
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 9
         },
         {
@@ -10475,7 +10475,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -10649,7 +10649,7 @@
                 "id": 72000296
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -10823,7 +10823,7 @@
                 "id": 72000292
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -10997,7 +10997,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -11171,7 +11171,7 @@
                 "id": 72000294
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -11345,7 +11345,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -11519,7 +11519,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -11693,7 +11693,7 @@
                 "id": 72000194
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -11871,7 +11871,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 5,
+            "minExpLevel": 7,
             "tournamentLevel": 11
         },
         {
@@ -12045,7 +12045,7 @@
                 "id": 72000293
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -12220,7 +12220,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -12395,7 +12395,7 @@
                 "id": 72000295
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -12570,7 +12570,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -12745,7 +12745,7 @@
                 "id": 72000296
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -12920,7 +12920,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -13095,7 +13095,7 @@
                 "id": 72000292
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -13270,7 +13270,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -13445,7 +13445,7 @@
                 "id": 72000194
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -13620,7 +13620,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -13795,7 +13795,7 @@
                 "id": 72000294
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -13970,7 +13970,7 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -14145,7 +14145,7 @@
                 "id": 72000005
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         },
         {
@@ -14320,7 +14320,1756 @@
                 "id": 72000291
             },
             "maxLosses": 5,
-            "minExpLevel": 8,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8YU8Y8",
+            "title": "Triple Draft Tournament",
+            "startTime": "20221029T080000.000Z",
+            "endTime": "20221103T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "WildcardLegendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "consumable",
+                    "amount": 5,
+                    "consumableName": "WildcardEpic"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "consumable",
+                    "amount": 100,
+                    "consumableName": "WildcardCommon"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000194
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8LJU00",
+            "title": "Royal Tournament",
+            "startTime": "20221112T090000.000Z",
+            "endTime": "20221117T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "WildcardLegendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "consumable",
+                    "amount": 5,
+                    "consumableName": "WildcardEpic"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "consumable",
+                    "amount": 100,
+                    "consumableName": "WildcardCommon"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000291
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8LJVPP",
+            "title": "Triple Elixir Tournament",
+            "startTime": "20221126T090000.000Z",
+            "endTime": "20221201T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "chest",
+                    "chest": "Legendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 1,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 1,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 1,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "tradeToken",
+                    "amount": 1,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000293
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8Q9G0G",
+            "title": "Royal Tournament",
+            "startTime": "20221210T090000.000Z",
+            "endTime": "20221215T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "WildcardLegendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "consumable",
+                    "amount": 5,
+                    "consumableName": "WildcardEpic"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "consumable",
+                    "amount": 100,
+                    "consumableName": "WildcardCommon"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000291
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8QLR80",
+            "title": "Rage Tournament",
+            "startTime": "20221224T090000.000Z",
+            "endTime": "20221229T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "WildcardLegendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "consumable",
+                    "amount": 5,
+                    "consumableName": "WildcardEpic"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "consumable",
+                    "amount": 100,
+                    "consumableName": "WildcardCommon"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000294
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8QJV98",
+            "title": "Royal Tournament",
+            "startTime": "20230107T090000.000Z",
+            "endTime": "20230112T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "WildcardLegendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "consumable",
+                    "amount": 5,
+                    "consumableName": "WildcardEpic"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "consumable",
+                    "amount": 100,
+                    "consumableName": "WildcardCommon"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000291
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8G9R9J",
+            "title": "Community Royal Tournament",
+            "startTime": "20230121T090000.000Z",
+            "endTime": "20230126T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "WildcardLegendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "consumable",
+                    "amount": 5,
+                    "consumableName": "WildcardEpic"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "consumable",
+                    "amount": 100,
+                    "consumableName": "WildcardCommon"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000336
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8GQ0P0",
+            "title": "Royal Tournament",
+            "startTime": "20230225T090000.000Z",
+            "endTime": "20230302T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "WildcardLegendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "consumable",
+                    "amount": 5,
+                    "consumableName": "WildcardEpic"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "consumable",
+                    "amount": 100,
+                    "consumableName": "WildcardCommon"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000291
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8GQ2GP",
+            "title": "Mega Draft Tournament",
+            "startTime": "20230211T090000.000Z",
+            "endTime": "20230216T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "WildcardLegendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "consumable",
+                    "amount": 5,
+                    "consumableName": "WildcardEpic"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "consumable",
+                    "amount": 100,
+                    "consumableName": "WildcardCommon"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000042
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
+            "tournamentLevel": 11
+        },
+        {
+            "tag": "#URP8GU9L0",
+            "title": "Royal Tournament",
+            "startTime": "20230311T090000.000Z",
+            "endTime": "20230316T090000.000Z",
+            "milestoneRewards": [
+                {
+                    "wins": 1,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "WildcardLegendary"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 3,
+                    "type": "consumable",
+                    "amount": 5,
+                    "consumableName": "WildcardEpic"
+                },
+                {
+                    "wins": 4,
+                    "type": "chest",
+                    "chest": "Epic"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 7,
+                    "type": "chest",
+                    "chest": "Giant"
+                },
+                {
+                    "wins": 8,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 9,
+                    "type": "consumable",
+                    "amount": 25,
+                    "consumableName": "WildcardRare"
+                },
+                {
+                    "wins": 10,
+                    "type": "chest",
+                    "chest": "Kings"
+                },
+                {
+                    "wins": 11,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "consumable",
+                    "amount": 100,
+                    "consumableName": "WildcardCommon"
+                },
+                {
+                    "wins": 13,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 14,
+                    "type": "resource",
+                    "amount": 10000,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 15,
+                    "type": "chest",
+                    "chest": "Magic"
+                }
+            ],
+            "freeTierRewards": [
+                {
+                    "wins": 1,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "common"
+                },
+                {
+                    "wins": 2,
+                    "type": "resource",
+                    "amount": 10,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 3,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "epic"
+                },
+                {
+                    "wins": 4,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 5,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 6,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "rare"
+                },
+                {
+                    "wins": 7,
+                    "type": "resource",
+                    "amount": 15,
+                    "resource": "unknown"
+                },
+                {
+                    "wins": 8,
+                    "type": "consumable",
+                    "amount": 1,
+                    "consumableName": "ChestKey"
+                },
+                {
+                    "wins": 9,
+                    "type": "tradeToken",
+                    "amount": 2,
+                    "rarity": "legendary"
+                },
+                {
+                    "wins": 10,
+                    "type": "resource",
+                    "amount": 2500,
+                    "resource": "gold"
+                },
+                {
+                    "wins": 12,
+                    "type": "chest",
+                    "chest": "Lightning"
+                }
+            ],
+            "topRankReward": [
+                {
+                    "type": "resource",
+                    "amount": 100000,
+                    "resource": "gold"
+                }
+            ],
+            "maxTopRewardRank": 50,
+            "gameMode": {
+                "id": 72000291
+            },
+            "maxLosses": 5,
+            "minExpLevel": 18,
             "tournamentLevel": 11
         }
     ]

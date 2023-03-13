@@ -1,0 +1,129 @@
+{
+    "items": [
+        {
+            "tag": "#GPPYR9JYR",
+            "name": "Clown",
+            "expLevel": 50,
+            "eloRating": 3391,
+            "rank": 1,
+            "clan": {
+                "tag": "#QQRVV22R",
+                "name": "☆50 STARS☆",
+                "badgeId": 16000097
+            }
+        },
+        {
+            "tag": "#2YJ09Y2JL",
+            "name": "King Miniminter",
+            "expLevel": 50,
+            "eloRating": 3131,
+            "rank": 2,
+            "clan": {
+                "tag": "#Q8L0PQJ2",
+                "name": "crown league",
+                "badgeId": 16000013
+            }
+        },
+        {
+            "tag": "#9PR02R98L",
+            "name": "⚡️DAISUKE⚡️",
+            "expLevel": 45,
+            "eloRating": 3114,
+            "rank": 3,
+            "clan": {
+                "tag": "#8R0VRQPU",
+                "name": "CR Dream Team",
+                "badgeId": 16000004
+            }
+        },
+        {
+            "tag": "#8R0VULVY",
+            "name": "ClasherTim™",
+            "expLevel": 50,
+            "eloRating": 3030,
+            "rank": 4,
+            "clan": {
+                "tag": "#8YLJ8UL2",
+                "name": "Aftershock",
+                "badgeId": 16000011
+            }
+        },
+        {
+            "tag": "#J8R89YC8",
+            "name": "Hunter",
+            "expLevel": 50,
+            "eloRating": 2916,
+            "rank": 5,
+            "clan": {
+                "tag": "#8YLJ8UL2",
+                "name": "Aftershock",
+                "badgeId": 16000011
+            }
+        },
+        {
+            "tag": "#PPV2JUUGU",
+            "name": "Boss",
+            "expLevel": 50,
+            "eloRating": 2899,
+            "rank": 6,
+            "clan": {
+                "tag": "#Q8L0PJPR",
+                "name": "✍️",
+                "badgeId": 16000017
+            }
+        },
+        {
+            "tag": "#2LJ2PLQVP",
+            "name": "⚡️King Tyran⚡️",
+            "expLevel": 50,
+            "eloRating": 2894,
+            "rank": 7,
+            "clan": {
+                "tag": "#PJY9PP98",
+                "name": "Always Baked",
+                "badgeId": 16000035
+            }
+        },
+        {
+            "tag": "#29P089RR0",
+            "name": "lemonTree68",
+            "expLevel": 50,
+            "eloRating": 2874,
+            "rank": 8,
+            "clan": {
+                "tag": "#YGJJLY88",
+                "name": "The poptarts",
+                "badgeId": 16000011
+            }
+        },
+        {
+            "tag": "#Y9V8PR8G9",
+            "name": "⚡✨°Narciso°✨⚡",
+            "expLevel": 50,
+            "eloRating": 2826,
+            "rank": 9,
+            "clan": {
+                "tag": "#Q8UUG2G0",
+                "name": "King'sNightmare",
+                "badgeId": 16000077
+            }
+        },
+        {
+            "tag": "#GGLRY8LG0",
+            "name": "Alireza⚡angel❤",
+            "expLevel": 42,
+            "eloRating": 2823,
+            "rank": 10,
+            "clan": {
+                "tag": "#QP002GVQ",
+                "name": "Light Stars",
+                "badgeId": 16000138
+            }
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "after": "eyJwb3MiOjEwfQ"
+        }
+    }
+}
