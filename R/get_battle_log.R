@@ -1,4 +1,4 @@
-#' Get Upcoming Chests
+#' Get Battle Log
 #'
 #' @param tag Required. The player to return.
 #' Default: JYJQC88

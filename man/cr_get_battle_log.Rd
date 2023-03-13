@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_battle_log.R
 \name{cr_get_battle_log}
 \alias{cr_get_battle_log}
-\title{Get Upcoming Chests}
+\title{Get Battle Log}
 \usage{
 cr_get_battle_log(tag = "JYJQC88", key = cr_get_key())
 }
@@ -17,7 +17,7 @@ Default: \code{cr_get_key()}}
 tibble of player info
 }
 \description{
-Get Upcoming Chests
+Get Battle Log
 }
 \examples{
 \dontshow{if (royale::cr_has_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
