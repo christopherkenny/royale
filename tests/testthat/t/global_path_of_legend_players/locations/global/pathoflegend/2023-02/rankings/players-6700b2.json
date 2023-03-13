@@ -1,0 +1,109 @@
+{
+    "items": [
+        {
+            "tag": "#RJ88Y8U08",
+            "name": "CAL Pedro™️",
+            "expLevel": 50,
+            "eloRating": 3674,
+            "rank": 1,
+            "clan": {
+                "tag": "#QP002GVQ",
+                "name": "Light Stars",
+                "badgeId": 16000138
+            }
+        },
+        {
+            "tag": "#UYL8820RJ",
+            "name": "Flash Light",
+            "expLevel": 43,
+            "eloRating": 3640,
+            "rank": 2,
+            "clan": {
+                "tag": "#QRGR0CQ9",
+                "name": "The Golden Wing",
+                "badgeId": 16000020
+            }
+        },
+        {
+            "tag": "#290VGG28",
+            "name": "Pedro™️",
+            "expLevel": 50,
+            "eloRating": 3639,
+            "rank": 3,
+            "clan": {
+                "tag": "#8UY0PCL0",
+                "name": "combatientes/sv",
+                "badgeId": 16000171
+            }
+        },
+        {
+            "tag": "#22QL9PRCR",
+            "name": "EL PATRON✨",
+            "expLevel": 49,
+            "eloRating": 3636,
+            "rank": 4,
+            "clan": {
+                "tag": "#Y20P8GCC",
+                "name": "Los Puercos",
+                "badgeId": 16000141
+            }
+        },
+        {
+            "tag": "#PCJ29YJJ",
+            "name": "Samuel Bassotto",
+            "expLevel": 50,
+            "eloRating": 3615,
+            "rank": 5
+        },
+        {
+            "tag": "#2UJ2QQJJP",
+            "name": "Takuma",
+            "expLevel": 48,
+            "eloRating": 3613,
+            "rank": 6,
+            "clan": {
+                "tag": "#Q882GPG0",
+                "name": "قلب سفید",
+                "badgeId": 16000110
+            }
+        },
+        {
+            "tag": "#9ULPU0QL",
+            "name": "⭐ʟᴜᴍɪɴᴀʀʏ⭐",
+            "expLevel": 50,
+            "eloRating": 3608,
+            "rank": 7
+        },
+        {
+            "tag": "#G9YV9GR8R",
+            "name": "Mohamed Light",
+            "expLevel": 50,
+            "eloRating": 3606,
+            "rank": 8
+        },
+        {
+            "tag": "#GU2YR209R",
+            "name": "Light Bulb",
+            "expLevel": 50,
+            "eloRating": 3590,
+            "rank": 9
+        },
+        {
+            "tag": "#R90PRV0PY",
+            "name": "Ryley",
+            "expLevel": 50,
+            "eloRating": 3578,
+            "rank": 10,
+            "clan": {
+                "tag": "#QLUY0PP2",
+                "name": "YT; Ryley CR",
+                "badgeId": 16000166
+            }
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "after": "eyJwb3MiOjEwfQ"
+        }
+    }
+}

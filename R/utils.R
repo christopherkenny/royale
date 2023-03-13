@@ -113,7 +113,7 @@ widen <- function(x) {
   x |>
     tibble::enframe() |>
     tidyr::pivot_wider() |>
-    tidyr::unnest_wider(col = where(~purrr::vec_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
+    tidyr::unnest_wider(col = where(~purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
     dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1'))
 }
 

@@ -57,7 +57,7 @@ clan |>
 ## RoyaleAPI Proxy
 
 If you are using a RoyaleAPI proxy, this can be configured by setting `options(royale.use_proxy = TRUE)`.
-This can be turned off by setting ``options(royale.use_proxy = FALSE)`. It is off by default.
+This can be turned off by setting `options(royale.use_proxy = FALSE)`. It is off by default.
 
 
 ## Disclaimer
