@@ -17,7 +17,7 @@ reference:
   - title: "Tournaments"
     desc: "Access tournament information"
   - contents:
-    - has_concept("tournaments")
+    - has_concept("tournament")
   - title: "Locations"
     desc: "Access information for a location"
   - contents:
