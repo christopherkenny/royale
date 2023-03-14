@@ -31,7 +31,7 @@ reference:
     desc: "Access global tournament information"
   - contents:
     - has_concept("globaltournaments")
-  - title "Other functions"
-    desc: "Other functions, including working with keys."
+  - title: "Other functions"
+    desc: "Other functions, including working with keys"
   - contents:
     - lacks_concepts(c("clan", "player", "cards", "tournaments", "locations", "challenges", "globaltournaments"))
