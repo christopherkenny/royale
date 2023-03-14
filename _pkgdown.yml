@@ -1,7 +1,6 @@
 url: http://christophertkenny.com/royale/
 template:
   bootstrap: 5
-
 reference:
   - title: "Clans"
     desc: "Access clan information"
