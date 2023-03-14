@@ -2,3 +2,32 @@ url: http://christophertkenny.com/royale/
 template:
   bootstrap: 5
 
+reference:
+  - title: "Clans"
+    desc: "Access clan information"
+  - contents:
+    - has_concept("clans")
+  - title: "Players"
+    desc: "Access player information"
+  - contents:
+    - has_concept("player")
+  - title: "Cards"
+    desc: "Access card information"
+  - contents:
+    - has_concept("cards")
+  - title: "Tournaments"
+    desc: "Access tournament information"
+  - contents:
+    - has_concept("tournaments")
+  - title: "Locations"
+    desc: "Access information for a location"
+  - contents:
+    - has_concept("locations")
+  - title: "Challenges"
+    desc: "Access challenge information"
+  - contents:
+    - has_concept("challenges")
+  - title: "Global Tournaments"
+    desc: "Access global tournament information"
+  - contents:
+    - has_concept("globaltournaments")

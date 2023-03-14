@@ -32,4 +32,4 @@ Get card details
 cr_get_global_tournaments()
 \dontshow{\}) # examplesIf}
 }
-\concept{locations}
+\concept{globaltournaments}

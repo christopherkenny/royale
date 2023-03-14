@@ -8,7 +8,7 @@
 #'
 #' @return tibble of card info
 #'
-#' @concept locations
+#' @concept globaltournaments
 #'
 #' @export
 #' @md
