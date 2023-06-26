@@ -68,7 +68,7 @@ check_valid_key <- function(key) {
 #' Gets the api url
 #'
 #' @noRd
-get_api_url <- function() {
+api_url <- function() {
   if (getOption('royale.use_proxy', FALSE)) {
     'https://proxy.royaleapi.dev/v1/'
   } else {
@@ -77,7 +77,7 @@ get_api_url <- function() {
 }
 
 req_base <- function() {
-  httr2::request(base_url = get_api_url())
+  httr2::request(base_url = api_url())
 }
 
 req_clan <- function(req, x) {
