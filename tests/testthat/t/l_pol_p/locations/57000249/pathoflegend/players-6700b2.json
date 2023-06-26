@@ -1,0 +1,114 @@
+{
+    "items": [
+        {
+            "tag": "#GPPYR9JYR",
+            "name": "Clown",
+            "expLevel": 55,
+            "eloRating": 3157,
+            "rank": 1,
+            "clan": {
+                "tag": "#G0LJC2JC",
+                "name": "모래성",
+                "badgeId": 16000175
+            }
+        },
+        {
+            "tag": "#9ULPU0QL",
+            "name": "⭐ʟᴜᴍɪɴᴀʀʏ⭐",
+            "expLevel": 55,
+            "eloRating": 3123,
+            "rank": 2,
+            "clan": {
+                "tag": "#GQQP9UVP",
+                "name": "The Off-Season",
+                "badgeId": 16000010
+            }
+        },
+        {
+            "tag": "#2QPL8RL8Q",
+            "name": "Adam",
+            "expLevel": 55,
+            "eloRating": 3049,
+            "rank": 3,
+            "clan": {
+                "tag": "#QVJJYYJR",
+                "name": "Twitch adamz_cr",
+                "badgeId": 16000165
+            }
+        },
+        {
+            "tag": "#P8VUY20C",
+            "name": "airsurfer",
+            "expLevel": 55,
+            "eloRating": 3042,
+            "rank": 4,
+            "clan": {
+                "tag": "#P8GLLLPR",
+                "name": "ホワイトルシアン❤",
+                "badgeId": 16000143
+            }
+        },
+        {
+            "tag": "#298JLLCYV",
+            "name": "Mihmster",
+            "expLevel": 55,
+            "eloRating": 3034,
+            "rank": 5
+        },
+        {
+            "tag": "#2Y20C8U0C",
+            "name": "Jessie❤️영원히",
+            "expLevel": 55,
+            "eloRating": 3029,
+            "rank": 6
+        },
+        {
+            "tag": "#Y9R22RQ2",
+            "name": "Ian77",
+            "expLevel": 55,
+            "eloRating": 3014,
+            "rank": 7,
+            "clan": {
+                "tag": "#Q0CGYGUP",
+                "name": "Fatherless",
+                "badgeId": 16000154
+            }
+        },
+        {
+            "tag": "#2L0VJG02",
+            "name": "Venom",
+            "expLevel": 54,
+            "eloRating": 2995,
+            "rank": 8
+        },
+        {
+            "tag": "#2Y2Q29YP0",
+            "name": "CODE JuicyJ",
+            "expLevel": 54,
+            "eloRating": 2971,
+            "rank": 9,
+            "clan": {
+                "tag": "#Q020G8QG",
+                "name": "Juicy Clan",
+                "badgeId": 16000106
+            }
+        },
+        {
+            "tag": "#P09C0GC0",
+            "name": "Babushka",
+            "expLevel": 54,
+            "eloRating": 2944,
+            "rank": 10,
+            "clan": {
+                "tag": "#PJY9PP98",
+                "name": "Always Baked",
+                "badgeId": 16000035
+            }
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "after": "eyJwb3MiOjEwfQ"
+        }
+    }
+}
