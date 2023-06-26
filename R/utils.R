@@ -29,7 +29,7 @@ status_error <- function(s) {
 
 #' Check for valid tag
 #'
-#' Checks that provide player or clan tag could be avalid tag.
+#' Checks that provide player or clan tag could be a valid tag.
 #' Does not verify that a player or clan has that tag.
 #'
 #' @noRd
