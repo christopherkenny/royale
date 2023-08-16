@@ -26,10 +26,7 @@ cr_get_cards <- function(limit = NULL, after = NULL, before = NULL, key = cr_get
     httr2::req_perform() |>
     httr2::resp_body_json()
 
-  out <- resp$items |>
-    dplyr::bind_rows() |>
-    tidyr::unnest_wider('iconUrls', names_sep = '_') |>
-    dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
+  out <- dplyr::bind_rows(lapply(resp$items, widen)) |>
     clean_names()
 
   out
