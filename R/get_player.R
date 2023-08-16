@@ -28,7 +28,6 @@ cr_get_player <- function(tag = 'JYJQC88', key = cr_get_key()) {
     httr2::req_perform() |>
     httr2::resp_body_json()
 
-  return(resp)
   out <- resp |>
     widen() |>
     tidyr::unnest_wider(tidyr::any_of('leagueStatistics'), names_sep = '_') |>
