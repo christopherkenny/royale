@@ -45,11 +45,6 @@ cr_get_player <- function(tag = 'JYJQC88', key = cr_get_key()) {
       clean_names()
   )
 
-  out$cards <- list(
-    dplyr::bind_rows(out$cards) |>
-      clean_names()
-  )
-
   out$current_deck <- list(
     dplyr::bind_rows(out$current_deck) |>
       clean_names()

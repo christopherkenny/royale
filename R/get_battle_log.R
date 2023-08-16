@@ -38,8 +38,8 @@ cr_get_battle_log <- function(tag = 'JYJQC88', key = cr_get_key()) {
     dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
     clean_names()
 
-  out$team_cards <- lapply(out$team_cards, dplyr::bind_rows)
-  out$opponent_cards <- lapply(out$opponent_cards, dplyr::bind_rows)
+  out$team_cards <- lapply(out$team_cards, function(x) clean_names(dplyr::bind_rows(lapply(x, widen))))
+  out$opponent_cards <- lapply(out$opponent_cards, function(x) clean_names(dplyr::bind_rows(lapply(x, widen))))
 
   out
 }
