@@ -1,35 +1,35 @@
-#' Get Locations
+#' Get Global Seasons
+#'
+#' This returns the current season if it's a valid season.
 #'
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: `cr_get_key()`
-#' @param limit `r template_var_limit()`
-#' @param after `r template_var_after()`
-#' @param before `r template_var_before()`
 #'
-#' @return tibble of locations
+#' @return tibble of card info
 #'
 #' @concept locations
 #'
 #' @export
 #' @md
 #' @examplesIf royale::cr_has_key()
-#' cr_get_locations()
-cr_get_locations <- function(limit = NULL, after = NULL, before = NULL, key = cr_get_key()) {
+#' cr_get_seasons()
+cr_get_seasons <- function(key = cr_get_key()) {
 
   # Check inputs ---------------------------------------------------------------
   check_valid_key(key)
 
   # Call to API ---
   resp <- req_base() |>
-    httr2::req_url_path_append('locations') |>
+    httr2::req_url_path_append('locations', 'global', 'seasonsV2') |>
     req_header(key) |>
-    req_where(limit, after, before) |>
     httr2::req_perform() |>
     httr2::resp_body_json()
 
-  out <- resp$items |>
+  out <- resp |>
+    purrr::pluck('items') |>
     dplyr::bind_rows() |>
-    clean_names()
+    clean_names() |>
+    dplyr::arrange(desc(dplyr::row_number()))
 
   `attr<-`(out, 'paging', resp$paging)
 

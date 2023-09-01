@@ -9,7 +9,7 @@
 #' @param after `r template_var_after()`
 #' @param before `r template_var_before()`
 #'
-#' @return tibble of card info
+#' @return tibble of global seasons
 #'
 #' @concept locations
 #'

@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_global_tournaments.R
 \name{cr_get_global_tournaments}
 \alias{cr_get_global_tournaments}
-\title{Get card details}
+\title{Get Global Tournament details}
 \usage{
 cr_get_global_tournaments(
   limit = NULL,
@@ -25,7 +25,7 @@ Default: \code{cr_get_key()}}
 tibble of card info
 }
 \description{
-Get card details
+Get Global Tournament details
 }
 \examples{
 \dontshow{if (royale::cr_has_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}

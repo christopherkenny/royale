@@ -17,7 +17,7 @@ cr_get_locations(limit = NULL, after = NULL, before = NULL, key = cr_get_key())
 Default: \code{cr_get_key()}}
 }
 \value{
-tibble of card info
+tibble of locations
 }
 \description{
 Get Locations

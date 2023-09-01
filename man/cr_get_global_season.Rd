@@ -25,7 +25,7 @@ cr_get_global_season(
 Default: \code{cr_get_key()}}
 }
 \value{
-tibble of card info
+tibble of global seasons
 }
 \description{
 This returns the current season if it's a valid season.

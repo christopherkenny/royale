@@ -1,4 +1,4 @@
-#' Get card details
+#' Get Global Tournament details
 #'
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: `cr_get_key()`
