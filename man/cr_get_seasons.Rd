@@ -11,7 +11,7 @@ cr_get_seasons(key = cr_get_key())
 Default: \code{cr_get_key()}}
 }
 \value{
-tibble of card info
+a \code{tibble} of season info
 }
 \description{
 This returns the current season if it's a valid season.

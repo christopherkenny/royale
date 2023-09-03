@@ -5,7 +5,7 @@
 #' @param key Required. API key. See <https://developer.clashroyale.com/#/documentation>
 #' Default: `cr_get_key()`
 #'
-#' @return tibble of card info
+#' @return a `tibble` of season info
 #'
 #' @concept locations
 #'
