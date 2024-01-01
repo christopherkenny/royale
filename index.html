@@ -14,8 +14,8 @@
 <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png">
 <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png">
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Clash Royale API">
 <meta property="og:description" content="R interface to the official API for Clash Royale &lt;https://developer.clashroyale.com/#/&gt;.">
@@ -89,65 +89,65 @@
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="http://christophertkenny.com/royale/">royale</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="reference/cr_get_player.html">cr_get_player</a></span><span class="op">(</span><span class="st">'JYJQC88'</span><span class="op">)</span></span>
-<span><span class="co">#&gt; # A tibble: 1 × 42</span></span>
-<span><span class="co">#&gt;   tag      name     exp_l…¹ troph…² best_…³  wins losses battl…⁴ three…⁵ chall…⁶</span></span>
-<span><span class="co">#&gt;   &lt;chr&gt;    &lt;chr&gt;      &lt;int&gt;   &lt;int&gt;   &lt;int&gt; &lt;int&gt;  &lt;int&gt;   &lt;int&gt;   &lt;int&gt;   &lt;int&gt;</span></span>
-<span><span class="co">#&gt; 1 #JYJQC88 christo…      50    7500    7500  6668   5052   20224    3297    2538</span></span>
-<span><span class="co">#&gt; # … with 32 more variables: challenge_max_wins &lt;int&gt;,</span></span>
-<span><span class="co">#&gt; #   tournament_cards_won &lt;int&gt;, tournament_battle_count &lt;int&gt;, role &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   donations &lt;int&gt;, donations_received &lt;int&gt;, total_donations &lt;int&gt;,</span></span>
-<span><span class="co">#&gt; #   war_day_wins &lt;int&gt;, clan_cards_collected &lt;int&gt;, clan_tag &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   clan_name &lt;chr&gt;, clan_badge_id &lt;int&gt;, arena_id &lt;int&gt;, arena_name &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   league_statistics_current_season_trophies &lt;int&gt;,</span></span>
-<span><span class="co">#&gt; #   league_statistics_current_season_best_trophies &lt;int&gt;, …</span></span></code></pre></div>
+<span><span class="co">#&gt; # A tibble: 1 × 56</span></span>
+<span><span class="co">#&gt;   tag      name       exp_level trophies best_trophies  wins losses battle_count</span></span>
+<span><span class="co">#&gt;   &lt;chr&gt;    &lt;chr&gt;          &lt;int&gt;    &lt;int&gt;         &lt;int&gt; &lt;int&gt;  &lt;int&gt;        &lt;int&gt;</span></span>
+<span><span class="co">#&gt; 1 #JYJQC88 christoph…        57     9000          9000  7669   5617        22211</span></span>
+<span><span class="co">#&gt; # ℹ 48 more variables: three_crown_wins &lt;int&gt;, challenge_cards_won &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   challenge_max_wins &lt;int&gt;, tournament_cards_won &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   tournament_battle_count &lt;int&gt;, role &lt;chr&gt;, donations &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   donations_received &lt;int&gt;, total_donations &lt;int&gt;, war_day_wins &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   clan_cards_collected &lt;int&gt;, clan_tag &lt;chr&gt;, clan_name &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   clan_badge_id &lt;int&gt;, arena_id &lt;int&gt;, arena_name &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   league_statistics_current_season_trophies &lt;int&gt;, …</span></span></code></pre></div>
 <p>To get a clan, we can use:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">clan</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/cr_get_clan.html">cr_get_clan</a></span><span class="op">(</span><span class="st">'99R2PQVR'</span><span class="op">)</span></span>
 <span><span class="va">clan</span></span>
-<span><span class="co">#&gt; # A tibble: 42 × 29</span></span>
-<span><span class="co">#&gt;    tag       name  type  descr…¹ badge…² clan_…³ clan_…⁴ locat…⁵ locat…⁶ locat…⁷</span></span>
-<span><span class="co">#&gt;    &lt;chr&gt;     &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;     &lt;int&gt;   &lt;int&gt;   &lt;int&gt;   &lt;int&gt; &lt;chr&gt;   &lt;lgl&gt;  </span></span>
-<span><span class="co">#&gt;  1 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt;  2 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt;  3 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt;  4 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt;  5 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt;  6 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt;  7 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt;  8 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt;  9 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt; 10 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  </span></span>
-<span><span class="co">#&gt; # … with 32 more rows, 19 more variables: required_trophies &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; # A tibble: 26 × 29</span></span>
+<span><span class="co">#&gt;    tag       name        type  description badge_id clan_score clan_war_trophies</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt; &lt;chr&gt;          &lt;int&gt;      &lt;int&gt;             &lt;int&gt;</span></span>
+<span><span class="co">#&gt;  1 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt;  2 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt;  3 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt;  4 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt;  5 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt;  6 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt;  7 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt;  8 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt;  9 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt; 10 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880</span></span>
+<span><span class="co">#&gt; # ℹ 16 more rows</span></span>
+<span><span class="co">#&gt; # ℹ 22 more variables: location_id &lt;int&gt;, location_name &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   location_is_country &lt;lgl&gt;, required_trophies &lt;int&gt;,</span></span>
 <span><span class="co">#&gt; #   donations_per_week &lt;int&gt;, clan_chest_status &lt;chr&gt;, clan_chest_level &lt;int&gt;,</span></span>
 <span><span class="co">#&gt; #   clan_chest_max_level &lt;int&gt;, members &lt;int&gt;, player_tag &lt;chr&gt;,</span></span>
 <span><span class="co">#&gt; #   player_name &lt;chr&gt;, player_role &lt;chr&gt;, player_last_seen &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   player_exp_level &lt;int&gt;, player_trophies &lt;int&gt;, player_arena_id &lt;int&gt;,</span></span>
-<span><span class="co">#&gt; #   player_arena_name &lt;chr&gt;, player_clan_rank &lt;int&gt;,</span></span>
-<span><span class="co">#&gt; #   player_previous_clan_rank &lt;int&gt;, player_donations &lt;int&gt;, …</span></span></code></pre></div>
+<span><span class="co">#&gt; #   player_exp_level &lt;int&gt;, player_trophies &lt;int&gt;, player_arena_id &lt;int&gt;, …</span></span></code></pre></div>
 <p>Clans are put into long form, so each player in a clan is an observation:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">clan</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/relocate.html" class="external-link">relocate</a></span><span class="op">(</span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html" class="external-link">starts_with</a></span><span class="op">(</span><span class="st">'player'</span><span class="op">)</span>, .before <span class="op">=</span> <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/everything.html" class="external-link">everything</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="co">#&gt; # A tibble: 42 × 29</span></span>
-<span><span class="co">#&gt;    player_tag player_n…¹ playe…² playe…³ playe…⁴ playe…⁵ playe…⁶ playe…⁷ playe…⁸</span></span>
-<span><span class="co">#&gt;    &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;   &lt;chr&gt;     &lt;int&gt;   &lt;int&gt;   &lt;int&gt; &lt;chr&gt;     &lt;int&gt;</span></span>
-<span><span class="co">#&gt;  1 #JYJQC88   christoph… coLead… 202303…      50    7500  5.40e7 Arena …       1</span></span>
-<span><span class="co">#&gt;  2 #8G00QJPLV Yamech     member  202303…      50    7500  5.40e7 Arena …       2</span></span>
-<span><span class="co">#&gt;  3 #PQL9VYJLV nicolai    coLead… 202303…      50    7500  5.40e7 Arena …       3</span></span>
-<span><span class="co">#&gt;  4 #229GLRLG9 ⚡X.MAN⚡  coLead… 202303…      50    7268  5.40e7 Arena …       4</span></span>
-<span><span class="co">#&gt;  5 #8Q9GJL28R Backpacke… elder   202303…      50    7149  5.40e7 Arena …       5</span></span>
-<span><span class="co">#&gt;  6 #RJ0QVQJJL TC22       member  202303…      50    7139  5.40e7 Arena …       6</span></span>
-<span><span class="co">#&gt;  7 #2GRYJ2QV  sontinice  elder   202303…      45    7065  5.40e7 Arena …       7</span></span>
-<span><span class="co">#&gt;  8 #89U82VQ0R Frahba     elder   202303…      50    7023  5.40e7 Arena …       8</span></span>
-<span><span class="co">#&gt;  9 #2908VQ08  Ribal      elder   202303…      50    7000  5.40e7 Arena …       9</span></span>
-<span><span class="co">#&gt; 10 #8QGQP9JQG TBD        member  202303…      50    6903  5.40e7 Arena …      10</span></span>
-<span><span class="co">#&gt; # … with 32 more rows, 20 more variables: player_previous_clan_rank &lt;int&gt;,</span></span>
-<span><span class="co">#&gt; #   player_donations &lt;int&gt;, player_donations_received &lt;int&gt;,</span></span>
-<span><span class="co">#&gt; #   player_clan_chest_points &lt;int&gt;, tag &lt;chr&gt;, name &lt;chr&gt;, type &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   description &lt;chr&gt;, badge_id &lt;int&gt;, clan_score &lt;int&gt;,</span></span>
-<span><span class="co">#&gt; #   clan_war_trophies &lt;int&gt;, location_id &lt;int&gt;, location_name &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   location_is_country &lt;lgl&gt;, required_trophies &lt;int&gt;,</span></span>
-<span><span class="co">#&gt; #   donations_per_week &lt;int&gt;, clan_chest_status &lt;chr&gt;, …</span></span></code></pre></div>
+<span><span class="co">#&gt; # A tibble: 26 × 29</span></span>
+<span><span class="co">#&gt;    player_tag player_name   player_role player_last_seen     player_exp_level</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;      &lt;chr&gt;         &lt;chr&gt;       &lt;chr&gt;                           &lt;int&gt;</span></span>
+<span><span class="co">#&gt;  1 #89U82VQ0R Frahba        elder       20240101T153108.000Z               59</span></span>
+<span><span class="co">#&gt;  2 #JYJQC88   christopher26 coLeader    20240101T152702.000Z               57</span></span>
+<span><span class="co">#&gt;  3 #2908VQ08  Ribal         elder       20240101T120302.000Z               56</span></span>
+<span><span class="co">#&gt;  4 #GUG0R829  Barlow716     coLeader    20240101T024559.000Z               58</span></span>
+<span><span class="co">#&gt;  5 #8JGJGR982 Pazzo         elder       20240101T143644.000Z               56</span></span>
+<span><span class="co">#&gt;  6 #2JCJ9J02  Hlavacekjr    coLeader    20240101T143600.000Z               57</span></span>
+<span><span class="co">#&gt;  7 #802YJU8CU Ptlnd         elder       20240101T072616.000Z               55</span></span>
+<span><span class="co">#&gt;  8 #GCP0CY80  Dragon Sound  elder       20240101T010408.000Z               56</span></span>
+<span><span class="co">#&gt;  9 #2GRYJ2QV  sontinice     elder       20240101T141434.000Z               52</span></span>
+<span><span class="co">#&gt; 10 #P8CRCUP0  christopher26 elder       20240101T024123.000Z               43</span></span>
+<span><span class="co">#&gt; # ℹ 16 more rows</span></span>
+<span><span class="co">#&gt; # ℹ 24 more variables: player_trophies &lt;int&gt;, player_arena_id &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   player_arena_name &lt;chr&gt;, player_clan_rank &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   player_previous_clan_rank &lt;int&gt;, player_donations &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   player_donations_received &lt;int&gt;, player_clan_chest_points &lt;int&gt;, tag &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   name &lt;chr&gt;, type &lt;chr&gt;, description &lt;chr&gt;, badge_id &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   clan_score &lt;int&gt;, clan_war_trophies &lt;int&gt;, location_id &lt;int&gt;, …</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="royaleapi-proxy">RoyaleAPI Proxy<a class="anchor" aria-label="anchor" href="#royaleapi-proxy"></a>
@@ -195,6 +195,8 @@
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
 <li><a href="https://github.com/christopherkenny/royale/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/christopherkenny/royale/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="https://christopherkenny.r-universe.dev/royale" class="external-link"><img src="https://christopherkenny.r-universe.dev/badges/royale" alt="royale status badge"></a></li>
+<li><a href="https://lifecycle.r-lib.org/articles/stages.html#stable" class="external-link"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg"></a></li>
 </ul>
 </div>
 
