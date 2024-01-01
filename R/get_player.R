@@ -55,6 +55,11 @@ cr_get_player <- function(tag = 'JYJQC88', key = cr_get_key()) {
       clean_names()
   )
 
+  out$support_cards <- list(
+    dplyr::bind_rows(lapply(out$support_cards, function(x) lapply(x, widen))) |>
+      clean_names()
+  )
+
   `attr<-`(out, 'paging', resp$paging)
 
   out

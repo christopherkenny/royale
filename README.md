@@ -6,6 +6,9 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/christopherkenny/royale/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/royale/actions/workflows/R-CMD-check.yaml)
+[![royale status
+badge](https://christopherkenny.r-universe.dev/badges/royale)](https://christopherkenny.r-universe.dev/royale)
+[![](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 <!-- badges: end -->
 
 `royale` provides an R interface to the [Clash Royale
@@ -32,17 +35,17 @@ To get a player’s data, we can use:
 library(royale)
 
 cr_get_player('JYJQC88')
-#> # A tibble: 1 × 42
-#>   tag      name     exp_l…¹ troph…² best_…³  wins losses battl…⁴ three…⁵ chall…⁶
-#>   <chr>    <chr>      <int>   <int>   <int> <int>  <int>   <int>   <int>   <int>
-#> 1 #JYJQC88 christo…      50    7500    7500  6668   5052   20224    3297    2538
-#> # … with 32 more variables: challenge_max_wins <int>,
-#> #   tournament_cards_won <int>, tournament_battle_count <int>, role <chr>,
-#> #   donations <int>, donations_received <int>, total_donations <int>,
-#> #   war_day_wins <int>, clan_cards_collected <int>, clan_tag <chr>,
-#> #   clan_name <chr>, clan_badge_id <int>, arena_id <int>, arena_name <chr>,
-#> #   league_statistics_current_season_trophies <int>,
-#> #   league_statistics_current_season_best_trophies <int>, …
+#> # A tibble: 1 × 56
+#>   tag      name       exp_level trophies best_trophies  wins losses battle_count
+#>   <chr>    <chr>          <int>    <int>         <int> <int>  <int>        <int>
+#> 1 #JYJQC88 christoph…        57     9000          9000  7669   5617        22211
+#> # ℹ 48 more variables: three_crown_wins <int>, challenge_cards_won <int>,
+#> #   challenge_max_wins <int>, tournament_cards_won <int>,
+#> #   tournament_battle_count <int>, role <chr>, donations <int>,
+#> #   donations_received <int>, total_donations <int>, war_day_wins <int>,
+#> #   clan_cards_collected <int>, clan_tag <chr>, clan_name <chr>,
+#> #   clan_badge_id <int>, arena_id <int>, arena_name <chr>,
+#> #   league_statistics_current_season_trophies <int>, …
 ```
 
 To get a clan, we can use:
@@ -50,26 +53,26 @@ To get a clan, we can use:
 ``` r
 clan <- cr_get_clan('99R2PQVR')
 clan
-#> # A tibble: 42 × 29
-#>    tag       name  type  descr…¹ badge…² clan_…³ clan_…⁴ locat…⁵ locat…⁶ locat…⁷
-#>    <chr>     <chr> <chr> <chr>     <int>   <int>   <int>   <int> <chr>   <lgl>  
-#>  1 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#>  2 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#>  3 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#>  4 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#>  5 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#>  6 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#>  7 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#>  8 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#>  9 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#> 10 #99R2PQVR LeGe… invi… "LeGeN…  1.60e7   65911    3495  5.70e7 North … FALSE  
-#> # … with 32 more rows, 19 more variables: required_trophies <int>,
+#> # A tibble: 26 × 29
+#>    tag       name        type  description badge_id clan_score clan_war_trophies
+#>    <chr>     <chr>       <chr> <chr>          <int>      <int>             <int>
+#>  1 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#>  2 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#>  3 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#>  4 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#>  5 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#>  6 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#>  7 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#>  8 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#>  9 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#> 10 #99R2PQVR LeGeND Dyn… open  "LeGeND Fa… 16000169      64003              2880
+#> # ℹ 16 more rows
+#> # ℹ 22 more variables: location_id <int>, location_name <chr>,
+#> #   location_is_country <lgl>, required_trophies <int>,
 #> #   donations_per_week <int>, clan_chest_status <chr>, clan_chest_level <int>,
 #> #   clan_chest_max_level <int>, members <int>, player_tag <chr>,
 #> #   player_name <chr>, player_role <chr>, player_last_seen <chr>,
-#> #   player_exp_level <int>, player_trophies <int>, player_arena_id <int>,
-#> #   player_arena_name <chr>, player_clan_rank <int>,
-#> #   player_previous_clan_rank <int>, player_donations <int>, …
+#> #   player_exp_level <int>, player_trophies <int>, player_arena_id <int>, …
 ```
 
 Clans are put into long form, so each player in a clan is an
@@ -78,26 +81,26 @@ observation:
 ``` r
 clan |> 
   dplyr::relocate(dplyr::starts_with('player'), .before = dplyr::everything())
-#> # A tibble: 42 × 29
-#>    player_tag player_n…¹ playe…² playe…³ playe…⁴ playe…⁵ playe…⁶ playe…⁷ playe…⁸
-#>    <chr>      <chr>      <chr>   <chr>     <int>   <int>   <int> <chr>     <int>
-#>  1 #JYJQC88   christoph… coLead… 202303…      50    7500  5.40e7 Arena …       1
-#>  2 #8G00QJPLV Yamech     member  202303…      50    7500  5.40e7 Arena …       2
-#>  3 #PQL9VYJLV nicolai    coLead… 202303…      50    7500  5.40e7 Arena …       3
-#>  4 #229GLRLG9 ⚡X.MAN⚡  coLead… 202303…      50    7268  5.40e7 Arena …       4
-#>  5 #8Q9GJL28R Backpacke… elder   202303…      50    7149  5.40e7 Arena …       5
-#>  6 #RJ0QVQJJL TC22       member  202303…      50    7139  5.40e7 Arena …       6
-#>  7 #2GRYJ2QV  sontinice  elder   202303…      45    7065  5.40e7 Arena …       7
-#>  8 #89U82VQ0R Frahba     elder   202303…      50    7023  5.40e7 Arena …       8
-#>  9 #2908VQ08  Ribal      elder   202303…      50    7000  5.40e7 Arena …       9
-#> 10 #8QGQP9JQG TBD        member  202303…      50    6903  5.40e7 Arena …      10
-#> # … with 32 more rows, 20 more variables: player_previous_clan_rank <int>,
-#> #   player_donations <int>, player_donations_received <int>,
-#> #   player_clan_chest_points <int>, tag <chr>, name <chr>, type <chr>,
-#> #   description <chr>, badge_id <int>, clan_score <int>,
-#> #   clan_war_trophies <int>, location_id <int>, location_name <chr>,
-#> #   location_is_country <lgl>, required_trophies <int>,
-#> #   donations_per_week <int>, clan_chest_status <chr>, …
+#> # A tibble: 26 × 29
+#>    player_tag player_name   player_role player_last_seen     player_exp_level
+#>    <chr>      <chr>         <chr>       <chr>                           <int>
+#>  1 #89U82VQ0R Frahba        elder       20240101T153108.000Z               59
+#>  2 #JYJQC88   christopher26 coLeader    20240101T152702.000Z               57
+#>  3 #2908VQ08  Ribal         elder       20240101T120302.000Z               56
+#>  4 #GUG0R829  Barlow716     coLeader    20240101T024559.000Z               58
+#>  5 #8JGJGR982 Pazzo         elder       20240101T143644.000Z               56
+#>  6 #2JCJ9J02  Hlavacekjr    coLeader    20240101T143600.000Z               57
+#>  7 #802YJU8CU Ptlnd         elder       20240101T072616.000Z               55
+#>  8 #GCP0CY80  Dragon Sound  elder       20240101T010408.000Z               56
+#>  9 #2GRYJ2QV  sontinice     elder       20240101T141434.000Z               52
+#> 10 #P8CRCUP0  christopher26 elder       20240101T024123.000Z               43
+#> # ℹ 16 more rows
+#> # ℹ 24 more variables: player_trophies <int>, player_arena_id <int>,
+#> #   player_arena_name <chr>, player_clan_rank <int>,
+#> #   player_previous_clan_rank <int>, player_donations <int>,
+#> #   player_donations_received <int>, player_clan_chest_points <int>, tag <chr>,
+#> #   name <chr>, type <chr>, description <chr>, badge_id <int>,
+#> #   clan_score <int>, clan_war_trophies <int>, location_id <int>, …
 ```
 
 ## RoyaleAPI Proxy
