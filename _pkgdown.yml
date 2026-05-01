@@ -1,6 +1,7 @@
 url: http://christophertkenny.com/royale/
 template:
   bootstrap: 5
+  package: ctktemplate
 reference:
   - title: "Clans"
     desc: "Access clan information"
